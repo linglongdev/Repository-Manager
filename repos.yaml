@@ -1,5 +1,7 @@
 repos:
   - repo: org.deepin.home
     info: 深度之家
+    developer: myml
   - repo: org.deepin.calendar
     info: 深度日历
+    developer: myml
