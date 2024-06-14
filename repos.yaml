@@ -5,3 +5,6 @@ repos:
   - repo: org.deepin.calendar
     info: 深度日历
     developer: myml
+  - repo: org.deepin.editor
+    info: 深度文本编辑器
+    developer: starhcq
