@@ -8,3 +8,6 @@ repos:
   - repo: org.deepin.editor
     info: 深度文本编辑器
     developer: starhcq
+  - repo: org.deepin.manual
+    info: 深度帮助手册
+    developer: starhcq
