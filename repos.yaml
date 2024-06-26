@@ -14,3 +14,6 @@ repos:
   - repo: org.deepin.introduction
     info: 深度欢迎
     developer: starhcq
+  - repo: org.deepin.browser
+    info: UOS浏览器
+    developer: myml
