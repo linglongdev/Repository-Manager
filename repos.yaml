@@ -20,3 +20,6 @@ repos:
   - repo: org.deepin.movie
     info: 深度影院
     developer: starhcq
+  - repo: org.deepin.fontmanager
+    info: 深度字体管理器
+    developer: starhcq
