@@ -17,3 +17,6 @@ repos:
   - repo: org.deepin.browser
     info: UOS浏览器
     developer: myml
+  - repo: org.deepin.movie
+    info: 深度影院
+    developer: starhcq
