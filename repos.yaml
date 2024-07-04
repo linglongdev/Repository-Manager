@@ -23,3 +23,6 @@ repos:
   - repo: io.typora
     info: Typora
     developer: myml
+  - repo: com.microsoft.edge
+    info: Edge浏览器
+    developer: myml
