@@ -20,3 +20,6 @@ repos:
   - repo: org.deepin.movie
     info: 深度影院
     developer: starhcq
+  - repo: io.typora
+    info: Typora
+    developer: myml
