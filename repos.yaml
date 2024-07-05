@@ -26,3 +26,6 @@ repos:
   - repo: com.microsoft.edge
     info: Edge浏览器
     developer: myml
+  - repo: org.kde.kmines
+    info: KMines
+    developer: inf-sup
