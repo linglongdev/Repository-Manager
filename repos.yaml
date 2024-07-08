@@ -29,3 +29,6 @@ repos:
   - repo: org.kde.kmines
     info: KMines
     developer: inf-sup
+  - repo: io.github.melonDS
+    info:melonDS
+    developer: melonDS-emu
