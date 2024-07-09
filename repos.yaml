@@ -29,3 +29,6 @@ repos:
   - repo: org.kde.kmines
     info: KMines
     developer: inf-sup
+  - repo: io.github.A-Photo-Tool-Libre
+    info: A-Photo-Tool-Libre
+    developer: Charlie-doggy
