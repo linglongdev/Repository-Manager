@@ -1,58 +1,47 @@
-version: "0.9.5.0"
+version: "1"
 
 package:
-  id: io.github.melonDS
-  name: melonDS 
-  version: 0.9.5.0
+  id: io.github.A-Photo-Tool-Libre
+  name: A-Photo-Tool-Libre
+  version: 1.0.6.1
   kind: app
   description: |
-    DS emulator, sorta
+    a free image editor.
 
-command: 
-  - /opt/apps/io.github.melonDS/files/bin/melonDS
+command:
+  - /opt/apps/io.github.A-Photo-Tool-Libre/files/bin/aphototoollibre
 
-base: org.deepin.foundation/23.0.0 
+base: org.deepin.foundation/23.0.0
 runtime: org.deepin.Runtime/23.0.1
 
 sources:
   - kind: git
-    url: https://github.com/melonDS-emu/melonDS.git
+    url: https://github.com/aphototool/A-Photo-Tool-Libre.git
     version: master
-    commit: b55eb431bdcec1c08c0ed9f8b8af9b7adc40a452
+    commit: d80efa0ddef968df5824a4c37e15f08a424180e2
 
   - kind: git
-    url: https://github.com/libsdl-org/SDL.git
+    url: https://github.com/linuxdeepin/dde-qt-dbus-factory.git
     version: master
-    commit: 58e179c8b50feff2a321003886f218a7b006c4d0
-
-  - kind: git
-    url: https://github.com/libarchive/libarchive.git
-    version: master
-    commit: 9fa8449fbc72d077ba1b04370af0803fd129e5b3
 
 build: |
-  #build SDL
-  cd /project/linglong/sources/SDL.git
-  cmake -Bbuild \
-        -DCMAKE_INSTALL_PREFIX=${PREFIX} \
-        -DCMAKE_INSTALL_LIBDIR=${PREFIX}/lib/${TRIPLET}
+  # build dde-qt-dbus-factory
+  cd /project/linglong/sources/dde-qt-dbus-factory.git
+  qmake -makefile \
+        PREFIX=${PREFIX} \
+        LIB_INSTALL_DIR=${PREFIX}/lib/${TRIPLET} \
+        INSTALL_ROOT=${PREFIX}
 
-  cmake --build build
-  cmake --build build --target install
-
-  #build libarchive
-  cd /project/linglong/sources/libarchive.git
-  cmake -Bbuild \
-        -DCMAKE_INSTALL_PREFIX=${PREFIX} \
-        -DCMAKE_INSTALL_LIBDIR=${PREFIX}/lib/${TRIPLET}
-
-  cmake --build build
-  cmake --build build --target install
+  make
+  make install
   
-  #build melonDS
-  cd /project/linglong/sources/melonDS.git
+  #build a-photo-tool-libre
+  cd /project/linglong/sources/A-Photo-Tool-Libre.git
   cmake -Bbuild \
-        -DCMAKE_INSTALL_PREFIX=${PREFIX}
+        -DCMAKE_INSTALL_PREFIX=${PREFIX} \
+        -DCMAKE_INSTALL_LIBDIR=${PREFIX}/lib/${TRIPLET}
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_SAFETYTEST_ARG="CMAKE_SAFETYTEST_ARG_OFF" \
 
-  cmake --build build -j$(nproc --all)
+  cmake --build build
   cmake --build build --target install
