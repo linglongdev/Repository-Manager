@@ -29,3 +29,6 @@ repos:
   - repo: org.kde.kmines
     info: KMines
     developer: inf-sup
+  - repo: org.qbittorrent
+    info: qBittorrent
+    developer: inf-sup
