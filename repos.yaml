@@ -11,6 +11,9 @@ repos:
   - repo: org.deepin.manual
     info: 深度帮助手册
     developer: starhcq
+  - repo: org.deepin.fontmanager
+    info: 深度字体管理器
+    developer: starhcq
   - repo: org.deepin.introduction
     info: 深度欢迎
     developer: starhcq
