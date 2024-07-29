@@ -1,0 +1,58 @@
+version: "0.9.5.0"
+
+package:
+  id: io.github.melonDS
+  name: melonDS 
+  version: 0.9.5.0
+  kind: app
+  description: |
+    DS emulator, sorta
+
+command: 
+  - /opt/apps/io.github.melonDS/files/bin/melonDS
+
+base: org.deepin.foundation/23.0.0 
+runtime: org.deepin.Runtime/23.0.1
+
+sources:
+  - kind: git
+    url: https://github.com/melonDS-emu/melonDS.git
+    version: master
+    commit: b55eb431bdcec1c08c0ed9f8b8af9b7adc40a452
+
+  - kind: git
+    url: https://github.com/libsdl-org/SDL.git
+    version: master
+    commit: 58e179c8b50feff2a321003886f218a7b006c4d0
+
+  - kind: git
+    url: https://github.com/libarchive/libarchive.git
+    version: master
+    commit: 9fa8449fbc72d077ba1b04370af0803fd129e5b3
+
+build: |
+  #build SDL
+  cd /project/linglong/sources/SDL.git
+  cmake -Bbuild \
+        -DCMAKE_INSTALL_PREFIX=${PREFIX} \
+        -DCMAKE_INSTALL_LIBDIR=${PREFIX}/lib/${TRIPLET}
+
+  cmake --build build
+  cmake --build build --target install
+
+  #build libarchive
+  cd /project/linglong/sources/libarchive.git
+  cmake -Bbuild \
+        -DCMAKE_INSTALL_PREFIX=${PREFIX} \
+        -DCMAKE_INSTALL_LIBDIR=${PREFIX}/lib/${TRIPLET}
+
+  cmake --build build
+  cmake --build build --target install
+  
+  #build melonDS
+  cd /project/linglong/sources/melonDS.git
+  cmake -Bbuild \
+        -DCMAKE_INSTALL_PREFIX=${PREFIX}
+
+  cmake --build build -j$(nproc --all)
+  cmake --build build --target install
