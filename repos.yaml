@@ -35,3 +35,6 @@ repos:
   - repo: org.qbittorrent.qbittorrent
     info: qBittorrent
     developer: inf-sup
+  - repo: io.github.lime3ds.Lime3DS
+    info: Lime3DS
+    developer: inf-sup
