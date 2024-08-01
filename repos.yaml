@@ -54,3 +54,4 @@ repos:
   - repo: org.videolan.vlc
     info: vlc 播放器
     developer: myml
+    developer_id: "13045857"
