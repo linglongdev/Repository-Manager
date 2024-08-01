@@ -1,0 +1,31 @@
+name: create app repo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ^1.22
+
+      - name: save private to file
+        run: 'echo "$MK_REPO_APP_PRIVATE_KEY" > /tmp/private_key'
+        env:
+          MK_REPO_APP_PRIVATE_KEY: ${{secrets.MK_REPO_APP_PRIVATE_KEY}}
+
+      - name: create repo
+        run: cd tools/mkrepo && go run .
+        env:
+          MK_REPO_ORG: linglongdev
+          MK_REPO_MANAGER_REPO: Repository-Manager
+          MK_REPO_APP_ID: ${{ secrets.MK_REPO_APP_ID }}
+          MK_REPO_APP_INSTALL_ID: ${{ secrets.MK_REPO_APP_INSTALL_ID }}
+          MK_REPO_APP_PRIVATE_KEY: /tmp/private_key
+          MK_REPO_WEBHOOK_URL: ${{ secrets.MK_REPO_WEBHOOK_URL }}
+          MK_REPO_WEBHOOK_SECRET: ${{ secrets.MK_REPO_WEBHOOK_SECRET }}

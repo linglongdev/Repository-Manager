@@ -2,39 +2,55 @@ repos:
   - repo: org.deepin.home
     info: 深度之家
     developer: myml
+    developer_id: "13045857"
   - repo: org.deepin.calendar
     info: 深度日历
     developer: myml
+    developer_id: "13045857"
   - repo: org.deepin.editor
     info: 深度文本编辑器
     developer: starhcq
+    developer_id: "40752904"
   - repo: org.deepin.manual
     info: 深度帮助手册
     developer: starhcq
+    developer_id: "40752904"
   - repo: org.deepin.fontmanager
     info: 深度字体管理器
     developer: starhcq
+    developer_id: "40752904"
   - repo: org.deepin.introduction
     info: 深度欢迎
     developer: starhcq
+    developer_id: "40752904"
   - repo: org.deepin.browser
     info: UOS浏览器
     developer: myml
+    developer_id: "13045857"
   - repo: org.deepin.movie
     info: 深度影院
     developer: starhcq
+    developer_id: "40752904"
   - repo: io.typora
     info: Typora
     developer: myml
+    developer_id: "13045857"
   - repo: com.microsoft.edge
     info: Edge浏览器
     developer: myml
+    developer_id: "13045857"
   - repo: org.kde.kmines
     info: KMines
     developer: inf-sup
+    developer_id: "174466778"
   - repo: org.qbittorrent.qbittorrent
     info: qBittorrent
     developer: inf-sup
+    developer_id: "174466778"
   - repo: io.github.lime3ds.Lime3DS
     info: Lime3DS
     developer: inf-sup
+    developer_id: "174466778"
+  - repo: org.videolan.vlc
+    info: vlc 播放器
+    developer: myml
