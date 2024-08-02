@@ -63,3 +63,6 @@ repos:
     info: melonDS
     developer: Charlie-doggy
     developer_id: "174567485"
+  - repo: net.minetest.Minetest
+    info: Minetest
+    developer: inf-sup
