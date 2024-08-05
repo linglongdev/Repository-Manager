@@ -59,3 +59,6 @@ repos:
     info: a cross-platform serial port assistant.
     developer: wjyrich
     developer_id: "147463620"
+  - repo: org.github.melonDS
+    info: melonDS
+    developer: Charlie-doggy
