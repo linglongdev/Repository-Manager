@@ -1,18 +1,21 @@
 # linglongdev 仓库管理
 
-## 申请应用仓库
+## 申请创建应用仓库
 
-开发者向 github 中 linglongdev 组织下的 Repository-Manager 项目提交 PR，修改 repos.yaml 文件，申请创建应用仓库。
+开发者向 github 中 linglongdev 组织下的 [Repository-Manager](https://github.com/linglongdev/Repository-Manager) 项目提交 PR，更新 repos.yaml 文件来申请创建应用仓库。
 
-创建新应用仓库需要填写以下字段
+请在 repos.yaml 文件追加以下内容然后，提交 Pull Request
 
 ```yaml
-- repo: 仓库名
-  info: 简介
+- repo: 仓库名(应使用倒置域名格式, 例如 org.deepin.calendar )
+  info: 应用简介
   developer: 开发者github用户名
 ```
 
-创建应用仓库的 PR 合并后，将会自动在 linglongdev 组织下创建该项目
+等待 PR 合并后，将会自动在 linglongdev 组织下创建该仓库
+
+> [!TIP]
+> repos.yaml 文件中的 developer_id 字段是由机器人自动生成,不需要填写
 
 <!--
 @startuml
@@ -60,9 +63,9 @@ end
 
 ## CICD 工作流
 
-- [ ] 创建仓库
+- [x] 创建仓库
       根据 PR 的提交创建新仓库
-- [ ] 设置 OBS webhook
+- [x] 设置 OBS webhook
       给创建的新仓库添加 OBS 的 webhook
 - [x] 创建 PR 后触发 OBS 构建
       通过 webhook 触发 OBS 构建玲珑应用

@@ -55,6 +55,10 @@ repos:
     info: vlc 播放器
     developer: myml
     developer_id: "13045857"
+  - repo: io.github.SerialPortAssistant
+    info: a cross-platform serial port assistant.
+    developer: wjyrich
+    developer_id: "147463620"
   - repo: org.github.melonDS
     info: melonDS
     developer: Charlie-doggy
