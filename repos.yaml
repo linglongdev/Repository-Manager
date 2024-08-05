@@ -58,3 +58,4 @@ repos:
   - repo: io.github.SerialPortAssistant
     info: a cross-platform serial port assistant.
     developer: wjyrich
+    developer_id: "147463620"
