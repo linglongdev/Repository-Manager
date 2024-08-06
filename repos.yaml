@@ -63,3 +63,6 @@ repos:
     info: melonDS
     developer: Charlie-doggy
     developer_id: "174567485"
+  - repo: io.github.ppsspp
+    info: A PSP emulator
+    developer: Van020530
