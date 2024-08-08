@@ -102,6 +102,7 @@ repos:
   - repo: io.github.Auxilium
     info: Auxilium
     developer: wjyrich
+    developer_id: "147463620"
   - repo: org.texstudio.TeXstudio
     info: TeXstudio
     developer: inf-sup
