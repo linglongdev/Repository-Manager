@@ -73,7 +73,7 @@ repos:
     developer_id: "84424520"
   - repo: io.github.wpa-cute
     info: wpa-cute
-    developer: wjyrcih
+    developer: wjyrich
   - repo: io.github.qtrfpowermeter
     info: qtrfpowermeter
     developer: wjyrich
