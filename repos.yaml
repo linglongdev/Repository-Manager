@@ -73,7 +73,8 @@ repos:
     developer_id: "84424520"
   - repo: io.github.wpa-cute
     info: wpa-cute
-    developer: wjyrcih
+    developer: wjyrich
+    developer_id: "147463620"
   - repo: io.github.qtrfpowermeter
     info: qtrfpowermeter
     developer: wjyrich
@@ -101,4 +102,8 @@ repos:
   - repo: io.github.Auxilium
     info: Auxilium
     developer: wjyrich
+  - repo: org.texstudio.TeXstudio
+    info: TeXstudio
+    developer: inf-sup
+    developer_id: "174466778"
 tip: 'You only need to fill in the three fields: repo, info, and developer'
