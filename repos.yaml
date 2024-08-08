@@ -74,6 +74,7 @@ repos:
   - repo: io.github.qmanga
     info: Manga reader written with Qt.
     developer: wjyrich
+    developer_id: "147463620"
   - repo: io.github.aplugedit
     info: A PlugEdit is a graphical schematic editor for ALSA .asoundrc file.
     developer: wjyrich
