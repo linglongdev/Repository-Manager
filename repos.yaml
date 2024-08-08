@@ -74,3 +74,13 @@ repos:
   - repo: io.github.aplugedit
     info: A PlugEdit is a graphical schematic editor for ALSA .asoundrc file.
     developer: wjyrich
+  - repo: io.github.STIGQter
+    info: Open Source STIG Viewer Reimplementation
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.androidprocmon
+    info: androidprocmon
+    developer: wjyrich
+    developer_id: "147463620"
+
+tip: "You only need to fill in the three fields: repo, info, and developer"
