@@ -99,6 +99,9 @@ repos:
     info: androidprocmon
     developer: wjyrich
     developer_id: "147463620"
+  - repo: io.github.nobleNote
+    info: nobleNote
+    developer: wjyrich
   - repo: io.github.qprogram-starter
     info: qprogram-starter
     developer: wjyrich
