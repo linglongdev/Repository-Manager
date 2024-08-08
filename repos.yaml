@@ -98,4 +98,10 @@ repos:
     info: androidprocmon
     developer: wjyrich
     developer_id: "147463620"
+<<<<<<< HEAD
+=======
+  - repo: io.github.qshutdown 
+    info: qshutdown 
+    developer: wjyrich 
+>>>>>>> b8be857 (feat:add qshutdown repo)
 tip: 'You only need to fill in the three fields: repo, info, and developer'
