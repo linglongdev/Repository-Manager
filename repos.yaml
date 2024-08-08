@@ -74,3 +74,4 @@ repos:
   - repo: io.github.STIGQter
     info: Open Source STIG Viewer Reimplementation
     developer: wjyrich
+    developer_id: "147463620"
