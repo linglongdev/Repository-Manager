@@ -66,6 +66,7 @@ repos:
   - repo: net.minetest.Minetest
     info: Minetest
     developer: inf-sup
+    developer_id: "174466778"
   - repo: io.github.ppsspp
     info: A PSP emulator
     developer: Van020530
