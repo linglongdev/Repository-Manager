@@ -78,5 +78,4 @@ repos:
   - repo: io.github.androidprocmon
     info: androidprocmon
     developer: wjyrich
-
-tip: "You only need to fill in the three fields: repo, info, and developer"
+    developer_id: "147463620"
