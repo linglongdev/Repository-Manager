@@ -69,11 +69,11 @@ end
       给创建的新仓库添加 OBS 的 webhook
 - [x] 创建 PR 后触发 OBS 构建
       通过 webhook 触发 OBS 构建玲珑应用
-- [ ] 在 PR 下面回复 layer 的下载地址
+- [x] 在 PR 下面回复 layer 的下载地址
       在构建成功后能在下载地址里看到构建出的 layer 文件
 - [ ] 修改 linglong.yaml version 字段 自动发布 tag
       在修改 version 字段的 PR 合并后自动发布 tag,tag 号和 version 一致
-- [ ] 多个 linglong.yaml 文件检查保持 version 一致
+- [x] 多个 linglong.yaml 文件检查保持 version 一致
       在 PR 构建的时候检查多架构多 linglong.yaml 文件的 version 版本号要一致
 - [x] 发布 tag 后 触发 OBS 构建
       通过 webhook 触发 OBS 构建玲珑应用
