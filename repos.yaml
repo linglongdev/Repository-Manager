@@ -127,4 +127,7 @@ repos:
     info: TeXstudio
     developer: inf-sup
     developer_id: "174466778"
+  - repo: io.github.treesheets
+    info: Free Form Data Organizer
+    developer: Van020530
 tip: 'You only need to fill in the three fields: repo, info, and developer'
