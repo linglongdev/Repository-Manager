@@ -64,6 +64,7 @@ func run() error {
 	}
 	result := struct {
 		Repos []*Repo
+		Tip   string
 	}{}
 	err = yaml.Unmarshal(data, &result)
 	if err != nil {
