@@ -74,6 +74,7 @@ repos:
   - repo: io.github.qregedit
     info: qregedit
     developer: wjyrich
+    developer_id: "147463620"
   - repo: io.github.qmanga
     info: Manga reader written with Qt.
     developer: wjyrich
