@@ -75,5 +75,8 @@ repos:
     info: Open Source STIG Viewer Reimplementation
     developer: wjyrich
     developer_id: "147463620"
+  - repo: io.github.androidprocmon
+    info: androidprocmon
+    developer: wjyrich
 
 tip: "You only need to fill in the three fields: repo, info, and developer"
