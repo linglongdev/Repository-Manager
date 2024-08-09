@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/bradleyfalzon/ghinstallation/v2"
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v63/github"
 	"gopkg.in/yaml.v3"
 )
 
@@ -37,11 +37,12 @@ func run() error {
 	var GitHubAppPrivateKey = os.Getenv("MK_REPO_APP_PRIVATE_KEY")
 	var GitHubWebhookUrl = os.Getenv("MK_REPO_WEBHOOK_URL")
 	var GitHubWebhookSecret = os.Getenv("MK_REPO_WEBHOOK_SECRET")
-
+	// 初始化github client
 	client, err := initGithubClient(GitHubAppID, GitHubAppInstallID, GitHubAppPrivateKey)
 	if err != nil {
 		return fmt.Errorf("init github client: %w", err)
 	}
+	// 从本地或远程读取repos.yaml文件
 	var data []byte
 	var oldDataSha string
 	if len(os.Args) > 1 {
@@ -62,6 +63,7 @@ func run() error {
 		data = []byte(content)
 		oldDataSha = fileContent.GetSHA()
 	}
+	// 解析repos.yaml文件
 	result := struct {
 		Repos []*Repo
 		Tip   string
@@ -70,6 +72,9 @@ func run() error {
 	if err != nil {
 		return fmt.Errorf("unmarshal repo config: %w", err)
 	}
+	// 没有developer_id的记录被视为新增仓库
+	// 根据developer字段补充developer_id
+	var newRepo []string
 	for i := range result.Repos {
 		repo := result.Repos[i]
 		if len(repo.DeveloperID) > 0 {
@@ -79,32 +84,37 @@ func run() error {
 		if err != nil {
 			return fmt.Errorf("get developer id: %w", err)
 		}
-		err = createRepo(client, GitHubOrg, repo.Repo, GitHubWebhookUrl, GitHubWebhookSecret)
+		newRepo = append(newRepo, repo.Repo)
+		time.Sleep(time.Second)
+	}
+	// 批量创建新增仓库
+	for _, repo := range newRepo {
+		err = createRepo(client, GitHubOrg, repo, GitHubWebhookUrl, GitHubWebhookSecret)
 		if err != nil {
 			return fmt.Errorf("create repo: %w", err)
 		}
-
-		data, err = marshalYAML(result)
+		time.Sleep(time.Second)
+	}
+	// 保存repos.yaml文件
+	data, err = marshalYAML(result)
+	if err != nil {
+		return fmt.Errorf("marshal repo config: %w", err)
+	}
+	if len(oldDataSha) > 0 {
+		opts := &github.RepositoryContentFileOptions{
+			Message: github.String("chore: update developer_id"),
+			Content: data,
+			SHA:     github.String(oldDataSha),
+		}
+		_, _, err = client.Repositories.UpdateFile(context.Background(), GitHubOrg, GitHubManagerRepo, "repos.yaml", opts)
 		if err != nil {
-			return fmt.Errorf("marshal repo config: %w", err)
+			return fmt.Errorf("create readme: %w", err)
 		}
-		if len(oldDataSha) > 0 {
-			opts := &github.RepositoryContentFileOptions{
-				Message: github.String("chore: update developer_id"),
-				Content: data,
-				SHA:     github.String(oldDataSha),
-			}
-			_, _, err = client.Repositories.UpdateFile(context.Background(), GitHubOrg, GitHubManagerRepo, "repos.yaml", opts)
-			if err != nil {
-				return fmt.Errorf("create readme: %w", err)
-			}
-		} else {
-			err = os.WriteFile(os.Args[1], data, 0644)
-			if err != nil {
-				return fmt.Errorf("create readme: %w", err)
-			}
+	} else {
+		err = os.WriteFile(os.Args[1], data, 0644)
+		if err != nil {
+			return fmt.Errorf("create readme: %w", err)
 		}
-		return nil
 	}
 	return nil
 }
@@ -141,12 +151,24 @@ func getDeveloperID(client *github.Client, username string) (string, error) {
 	return fmt.Sprintf("%d", user.GetID()), nil
 }
 
+func setCustomProperties(client *github.Client, github_org, github_repo, key, val string) error {
+	values := []*github.CustomPropertyValue{}
+	values = append(values, &github.CustomPropertyValue{PropertyName: key, Value: github.String(val)})
+	_, err := client.Repositories.CreateOrUpdateCustomProperties(
+		context.Background(),
+		github_org, github_repo,
+		values,
+	)
+	return err
+}
+
 func createRepo(client *github.Client, github_org, github_repo, webhook_url, webhook_secret string) error {
 	ctx := context.Background()
 
 	_, _, err := client.Repositories.Create(ctx, github_org, &github.Repository{
-		Name:    github.String(github_repo),
-		Private: github.Bool(false),
+		Name:             github.String(github_repo),
+		Private:          github.Bool(false),
+		CustomProperties: map[string]string{"kind": "app"},
 	})
 	if err != nil {
 		return fmt.Errorf("create repo: %w", err)
@@ -161,11 +183,15 @@ func createRepo(client *github.Client, github_org, github_repo, webhook_url, web
 	if err != nil {
 		return fmt.Errorf("create readme: %w", err)
 	}
-	// wait create file finish
+	// Wait for the readme to be created
 	time.Sleep(time.Second)
 	_, _, err = client.Repositories.CreateHook(ctx, github_org, github_repo, &github.Hook{
-		Name:   github.String("web"),
-		Config: map[string]interface{}{"url": webhook_url, "content_type": "json", "secret": webhook_secret},
+		Name: github.String("web"),
+		Config: &github.HookConfig{
+			URL:         github.String(webhook_url),
+			ContentType: github.String("json"),
+			Secret:      github.String(webhook_secret),
+		},
 		Events: []string{"push", "pull_request"},
 	})
 	if err != nil {
