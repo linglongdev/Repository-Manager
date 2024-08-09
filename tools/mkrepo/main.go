@@ -87,6 +87,9 @@ func run() error {
 		newRepo = append(newRepo, repo.Repo)
 		time.Sleep(time.Second)
 	}
+	if len(newRepo) == 0 {
+		return nil
+	}
 	// 批量创建新增仓库
 	for _, repo := range newRepo {
 		err = createRepo(client, GitHubOrg, repo, GitHubWebhookUrl, GitHubWebhookSecret)
