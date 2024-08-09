@@ -131,4 +131,22 @@ repos:
     info: Free Form Data Organizer
     developer: Van020530
     developer_id: "84424520"
+  - repo: io.github.AA2QtEdit
+    info: AA2QtEdit
+    developer: wjyrich
+  - repo: io.github.FLIPPED
+    info: FLIPPED
+    developer: wjyrich
+  - repo: io.github.ShotX
+    info: ShotX
+    developer: wjyrich
+  - repo: io.github.robocut
+    info: robocut
+    developer: wjyrich
+  - repo: io.github.simple-remote-desktop-accessor
+    info: simple-remote-desktop-accessor
+    developer: wjyrich
+  - repo: io.github.qshutdown
+    info: qshutdown
+    developer: wjyrich
 tip: 'You only need to fill in the three fields: repo, info, and developer'
