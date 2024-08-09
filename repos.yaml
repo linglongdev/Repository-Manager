@@ -131,4 +131,7 @@ repos:
     info: Free Form Data Organizer
     developer: Van020530
     developer_id: "84424520"
+  - repo: com.github.skylot.jadx
+    info: JADX
+    developer: inf-sup
 tip: 'You only need to fill in the three fields: repo, info, and developer'
