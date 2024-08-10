@@ -131,4 +131,7 @@ repos:
     info: Free Form Data Organizer
     developer: Van020530
     developer_id: "84424520"
+  - repo: io.github.freetumble
+    info: Colourful puzzle game using SFML.
+    developer: Van020530
 tip: 'You only need to fill in the three fields: repo, info, and developer'
