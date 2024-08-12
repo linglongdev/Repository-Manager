@@ -167,3 +167,43 @@ repos:
     info: x11-calc
     developer: Van020530
     developer_id: "84424520"
+  - repo: io.github.QAmigo
+    info: QAmigo
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.StreamControl
+    info: StreamControl
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.VMT-Editor
+    info: VMT-Editor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.mattermost-qt
+    info: mattermost-qt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.mous
+    info: mous
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.sigviewer
+    info: sigviewer
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.zenshot
+    info: zenshot
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.openexr-viewer
+    info: openexr-viewer
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.PsiphonQt
+    info: PsiphonQt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.kkshell
+    info: kkshell
+    developer: wjyrich
+    developer_id: "147463620"
