@@ -89,7 +89,7 @@ func run() error {
 		client,
 		GitHubOrg, GitHubManagerRepo,
 		"repos.yaml",
-		"00181bb231a2f9edf0e95fc15e3ddbf4954c8341",
+		"99aee92cb2f9d280f3c208bce181060947e4a6ca",
 	)
 	if err != nil {
 		return fmt.Errorf("get repos template: %w", err)
