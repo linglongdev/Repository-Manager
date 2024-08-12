@@ -43,7 +43,7 @@ func run() error {
 		return fmt.Errorf("init github client: %w", err)
 	}
 	// 从远程读取repos.yaml文件和repos_history.yaml
-	repos, _, err := getRepos(client, GitHubOrg, GitHubManagerRepo)
+	repos, sha, err := getRepos(client, GitHubOrg, GitHubManagerRepo)
 	if err != nil {
 		return fmt.Errorf("get repo: %w", err)
 	}
@@ -79,7 +79,7 @@ func run() error {
 		time.Sleep(time.Second)
 	}
 	// 将repos.yaml文件恢复成默认模板，避免多个PR合并冲突
-	data, sha, err := getContent(
+	data, _, err := getContent(
 		client,
 		GitHubOrg, GitHubManagerRepo,
 		"repos.yaml",
