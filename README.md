@@ -15,7 +15,7 @@
 等待 PR 合并后，将会自动在 linglongdev 组织下创建该仓库
 
 > [!TIP]
-> 为避免多个 PR 导致合并冲突，在 PR 合并后 repos.yaml 会恢复成模板，历史提交请查看 history/repos_history.yaml
+> 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 
 <!--
 @startuml
