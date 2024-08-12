@@ -4,7 +4,7 @@
 
 开发者向 github 中 linglongdev 组织下的 [Repository-Manager](https://github.com/linglongdev/Repository-Manager) 项目提交 PR，更新 repos.yaml 文件来申请创建应用仓库。
 
-请在 repos.yaml 文件追加以下内容然后，提交 Pull Request
+请在 repos.yaml 文件添加以下内容然后，提交 Pull Request
 
 ```yaml
 - repo: 仓库名(应使用倒置域名格式, 例如 org.deepin.calendar )
@@ -15,7 +15,7 @@
 等待 PR 合并后，将会自动在 linglongdev 组织下创建该仓库
 
 > [!TIP]
-> repos.yaml 文件中的 developer_id 字段是由机器人自动生成,不需要填写
+> 为避免多个 PR 导致合并冲突，在 PR 合并后 repos.yaml 会恢复成模板，历史提交请查看 history/repos_history.yaml
 
 <!--
 @startuml

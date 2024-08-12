@@ -113,7 +113,7 @@ func run() error {
 		return fmt.Errorf("marshal history: %w", err)
 	}
 	opts = &github.RepositoryContentFileOptions{
-		Message: github.String("chore: update history/repos_history.yaml"),
+		Message: github.String("chore: Update history/repos_history.yaml"),
 		Content: data,
 		SHA:     github.String(historySha),
 	}
