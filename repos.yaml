@@ -134,19 +134,25 @@ repos:
   - repo: io.github.AA2QtEdit
     info: AA2QtEdit
     developer: wjyrich
+    developer_id: "147463620"
   - repo: io.github.FLIPPED
     info: FLIPPED
     developer: wjyrich
+    developer_id: "147463620"
   - repo: io.github.ShotX
     info: ShotX
     developer: wjyrich
+    developer_id: "147463620"
   - repo: io.github.robocut
     info: robocut
     developer: wjyrich
+    developer_id: "147463620"
   - repo: io.github.simple-remote-desktop-accessor
     info: simple-remote-desktop-accessor
     developer: wjyrich
+    developer_id: "147463620"
   - repo: io.github.qshutdown
     info: qshutdown
     developer: wjyrich
+    developer_id: "147463620"
 tip: 'You only need to fill in the three fields: repo, info, and developer'
