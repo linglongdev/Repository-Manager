@@ -221,12 +221,16 @@ func createRepo(client *github.Client, github_org, github_repo, webhook_url, web
 	ctx := context.Background()
 
 	_, _, err := client.Repositories.Create(ctx, github_org, &github.Repository{
-		Name:             github.String(github_repo),
-		Private:          github.Bool(false),
-		CustomProperties: map[string]string{"kind": "app"},
+		Name:    github.String(github_repo),
+		Private: github.Bool(false),
 	})
 	if err != nil {
 		return fmt.Errorf("create repo: %w", err)
+	}
+	// add custom properties
+	err = setCustomProperties(client, github_org, github_repo, "kind", "app")
+	if err != nil {
+		return fmt.Errorf("set custom properties: %w", err)
 	}
 	// 创建README文件
 	readmeContent := "# " + github_repo
