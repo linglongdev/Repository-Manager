@@ -64,6 +64,7 @@ func run() error {
 			return fmt.Errorf("get developer id: %w", err)
 		}
 		history = append(history, repo)
+		newRepo = append(newRepo, repo.Repo)
 		time.Sleep(time.Second)
 	}
 	if len(newRepo) == 0 {
