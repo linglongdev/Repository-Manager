@@ -42,41 +42,20 @@ func run() error {
 	if err != nil {
 		return fmt.Errorf("init github client: %w", err)
 	}
-	// 从本地或远程读取repos.yaml文件
-	var data []byte
-	var oldDataSha string
-	if len(os.Args) > 1 {
-		data, err = os.ReadFile(os.Args[1])
-		if err != nil {
-			return fmt.Errorf("read repo config: %w", err)
-		}
-
-	} else {
-		fileContent, _, _, err := client.Repositories.GetContents(context.Background(), GitHubOrg, GitHubManagerRepo, "repos.yaml", &github.RepositoryContentGetOptions{})
-		if err != nil {
-			return fmt.Errorf("read repo config: %w", err)
-		}
-		content, err := fileContent.GetContent()
-		if err != nil {
-			return fmt.Errorf("read repo config: %w", err)
-		}
-		data = []byte(content)
-		oldDataSha = fileContent.GetSHA()
-	}
-	// 解析repos.yaml文件
-	result := struct {
-		Repos []*Repo
-		Tip   string
-	}{}
-	err = yaml.Unmarshal(data, &result)
+	// 从远程读取repos.yaml文件和repos_history.yaml
+	repos, _, err := getRepos(client, GitHubOrg, GitHubManagerRepo)
 	if err != nil {
-		return fmt.Errorf("unmarshal repo config: %w", err)
+		return fmt.Errorf("get repo: %w", err)
 	}
-	// 没有developer_id的记录被视为新增仓库
+	history, historySha, err := getHistory(client, GitHubOrg, GitHubManagerRepo)
+	if err != nil {
+		return fmt.Errorf("get repo: %w", err)
+	}
+	// repos.yaml的记录被视为新增仓库
 	// 根据developer字段补充developer_id
-	var newRepo []string
-	for i := range result.Repos {
-		repo := result.Repos[i]
+	newRepo := []string{}
+	for i := range repos {
+		repo := repos[i]
 		if len(repo.DeveloperID) > 0 {
 			continue
 		}
@@ -84,13 +63,13 @@ func run() error {
 		if err != nil {
 			return fmt.Errorf("get developer id: %w", err)
 		}
-		newRepo = append(newRepo, repo.Repo)
+		history = append(history, repo)
 		time.Sleep(time.Second)
 	}
 	if len(newRepo) == 0 {
 		return nil
 	}
-	// 批量创建新增仓库
+	// 批量创建新增记录的应用仓库
 	for _, repo := range newRepo {
 		err = createRepo(client, GitHubOrg, repo, GitHubWebhookUrl, GitHubWebhookSecret)
 		if err != nil {
@@ -98,26 +77,46 @@ func run() error {
 		}
 		time.Sleep(time.Second)
 	}
-	// 保存repos.yaml文件
-	data, err = marshalYAML(result)
+	// 将repos.yaml文件恢复成默认模板，避免多个PR合并冲突
+	data, sha, err := getContent(
+		client,
+		GitHubOrg, GitHubManagerRepo,
+		"repos.yaml",
+		"00181bb231a2f9edf0e95fc15e3ddbf4954c8341",
+	)
 	if err != nil {
-		return fmt.Errorf("marshal repo config: %w", err)
+		return fmt.Errorf("get repos template: %w", err)
 	}
-	if len(oldDataSha) > 0 {
-		opts := &github.RepositoryContentFileOptions{
-			Message: github.String("chore: update developer_id"),
-			Content: data,
-			SHA:     github.String(oldDataSha),
-		}
-		_, _, err = client.Repositories.UpdateFile(context.Background(), GitHubOrg, GitHubManagerRepo, "repos.yaml", opts)
-		if err != nil {
-			return fmt.Errorf("create readme: %w", err)
-		}
-	} else {
-		err = os.WriteFile(os.Args[1], data, 0644)
-		if err != nil {
-			return fmt.Errorf("create readme: %w", err)
-		}
+	opts := &github.RepositoryContentFileOptions{
+		Message: github.String("chore: Restore repos.yaml"),
+		Content: data,
+		SHA:     github.String(sha),
+	}
+	_, _, err = client.Repositories.UpdateFile(
+		context.Background(),
+		GitHubOrg, GitHubManagerRepo,
+		"repos.yaml", opts,
+	)
+	if err != nil {
+		return fmt.Errorf("restore repos: %w", err)
+	}
+	// 保存新数据到repo_history.yaml文件
+	data, err = marshalYAML(struct{ Repos []*Repo }{history})
+	if err != nil {
+		return fmt.Errorf("marshal history: %w", err)
+	}
+	opts = &github.RepositoryContentFileOptions{
+		Message: github.String("chore: update history/repos_history.yaml"),
+		Content: data,
+		SHA:     github.String(historySha),
+	}
+	_, _, err = client.Repositories.UpdateFile(
+		context.Background(),
+		GitHubOrg, GitHubManagerRepo,
+		"history/repos_history.yaml", opts,
+	)
+	if err != nil {
+		return fmt.Errorf("save history: %w", err)
 	}
 	return nil
 }
@@ -128,6 +127,52 @@ func marshalYAML(v interface{}) ([]byte, error) {
 	encoder.SetIndent(2)
 	err := encoder.Encode(v)
 	return buff.Bytes(), err
+}
+
+func getContent(client *github.Client, org, repo, path, ref string) (data []byte, sha string, err error) {
+	fileContent, _, _, err := client.Repositories.GetContents(
+		context.Background(),
+		org, repo, path,
+		&github.RepositoryContentGetOptions{Ref: ref},
+	)
+	if err != nil {
+		return nil, "", fmt.Errorf("read repo config: %w", err)
+	}
+	content, err := fileContent.GetContent()
+	if err != nil {
+		return nil, "", fmt.Errorf("read repo config: %w", err)
+	}
+	return []byte(content), fileContent.GetSHA(), nil
+}
+
+func getRepos(client *github.Client, org, repo string) (data []*Repo, sha string, err error) {
+	content, sha, err := getContent(client, org, repo, "repos.yaml", "")
+	if err != nil {
+		return nil, "", fmt.Errorf("get repo content: %w", err)
+	}
+	result := struct {
+		Repos []*Repo
+	}{}
+	err = yaml.Unmarshal(content, &result)
+	if err != nil {
+		return nil, "", fmt.Errorf("unmarshal repo config: %w", err)
+	}
+	return result.Repos, sha, nil
+}
+
+func getHistory(client *github.Client, org, repo string) (data []*Repo, sha string, err error) {
+	content, sha, err := getContent(client, org, repo, "history/repos_history.yaml", "")
+	if err != nil {
+		return nil, "", fmt.Errorf("get repo content: %w", err)
+	}
+	result := struct {
+		Repos []*Repo
+	}{}
+	err = yaml.Unmarshal(content, &result)
+	if err != nil {
+		return nil, "", fmt.Errorf("unmarshal repo config: %w", err)
+	}
+	return result.Repos, sha, nil
 }
 
 func initGithubClient(app_id, app_install_id, app_private_key string) (*github.Client, error) {
