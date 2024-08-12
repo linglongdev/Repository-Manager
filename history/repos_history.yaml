@@ -155,4 +155,7 @@ repos:
     info: qshutdown
     developer: wjyrich
     developer_id: "147463620"
-tip: 'You only need to fill in the three fields: repo, info, and developer'
+  - repo: com.github.skylot.jadx
+    info: JADX
+    developer: inf-sup
+    developer_id: "174466778"
