@@ -223,3 +223,47 @@ repos:
     info: Diagnostic Log and Trace viewing program
     developer: Van020530
     developer_id: "84424520"
+  - repo: io.github.3gpp-decoder-linux
+    info: 3gpp-decoder-linux
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.IDE65XX
+    info: IDE65XX
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.OpenRCT2Launcher
+    info: OpenRCT2Launcher
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.PLCTool
+    info: PLCTool
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.font2bytes
+    info: font2bytes
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.fontedit
+    info: fontedit
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.labpowerqt
+    info: labpowerqt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qterm
+    info: qterm
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.usb2sniffer-qt
+    info: usb2sniffer-qt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.radeon-profile
+    info: radeon-profile
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.wiibafu
+    info: wiibafu
+    developer: wjyrich
+    developer_id: "147463620"
