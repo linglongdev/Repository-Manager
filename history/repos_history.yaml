@@ -207,3 +207,7 @@ repos:
     info: kkshell
     developer: wjyrich
     developer_id: "147463620"
+  - repo: io.github.jumpnbump
+    info: play cute bunnies jumping on each other's heads
+    developer: Van020530
+    developer_id: "84424520"
