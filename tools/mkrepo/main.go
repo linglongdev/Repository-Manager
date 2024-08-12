@@ -54,18 +54,24 @@ func run() error {
 	// repos.yaml的记录被视为新增仓库
 	// 根据developer字段补充developer_id
 	newRepo := []string{}
+	developerMap := map[string]string{}
 	for i := range repos {
 		repo := repos[i]
 		if len(repo.DeveloperID) > 0 {
 			continue
 		}
-		repo.DeveloperID, err = getDeveloperID(client, repo.Developer)
-		if err != nil {
-			return fmt.Errorf("get developer id: %w", err)
+		if len(developerMap[repo.Developer]) > 0 {
+			repo.DeveloperID = developerMap[repo.Developer]
+		} else {
+			repo.DeveloperID, err = getDeveloperID(client, repo.Developer)
+			if err != nil {
+				return fmt.Errorf("get developer id: %w", err)
+			}
+			developerMap[repo.Developer] = repo.DeveloperID
+			time.Sleep(time.Second)
 		}
 		history = append(history, repo)
 		newRepo = append(newRepo, repo.Repo)
-		time.Sleep(time.Second)
 	}
 	if len(newRepo) == 0 {
 		return nil
