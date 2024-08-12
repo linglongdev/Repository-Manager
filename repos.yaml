@@ -131,34 +131,4 @@ repos:
     info: Free Form Data Organizer
     developer: Van020530
     developer_id: "84424520"
-  - repo: io.github.QAmigo
-    info: QAmigo
-    developer: wjyrich
-  - repo: io.github.StreamControl
-    info: StreamControl
-    developer: wjyrich
-  - repo: io.github.VMT-Editor
-    info: VMT-Editor
-    developer: wjyrich
-  - repo: io.github.mattermost-qt
-    info: mattermost-qt
-    developer: wjyrich
-  - repo: io.github.mous
-    info: mous
-    developer: wjyrich
-  - repo: io.github.sigviewer
-    info: sigviewer
-    developer: wjyrich
-  - repo: io.github.zenshot
-    info: zenshot
-    developer: wjyrich
-  - repo: io.github.openexr-viewer
-    info: openexr-viewer
-    developer: wjyrich
-  - repo: io.github.PsiphonQt
-    info: PsiphonQt
-    developer: wjyrich
-  - repo: io.github.kkshell
-    info: kkshell
-    developer: wjyrich
 tip: 'You only need to fill in the three fields: repo, info, and developer'
