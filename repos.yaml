@@ -1,2 +1,5 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+  - repo: org.kde.francis
+    info: Francis
+    developer: inf-sup
