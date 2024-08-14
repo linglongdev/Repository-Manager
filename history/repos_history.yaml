@@ -267,3 +267,7 @@ repos:
     info: wiibafu
     developer: wjyrich
     developer_id: "147463620"
+  - repo: org.kde.francis
+    info: Francis
+    developer: inf-sup
+    developer_id: "174466778"
