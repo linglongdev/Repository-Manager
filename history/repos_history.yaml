@@ -271,3 +271,51 @@ repos:
     info: Francis
     developer: inf-sup
     developer_id: "174466778"
+  - repo: io.github.CPP_SmartCalculatort
+    info: CPP_SmartCalculatort
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.FreeJoyQt
+    info: FreeJoyQt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.FreeNoiseMap-FNM
+    info: FreeNoiseMap-FNM
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.PetoiControllerQt
+    info: PetoiControllerQt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.SYLoader
+    info: SYLoader
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.TouchTyper
+    info: TouchTyper
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.UDTStudio
+    info: UDTStudio
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.XmdvTool
+    info: XmdvTool
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.image-editor
+    info: image-editor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.kate_pdf_converter
+    info: kate_pdf_converter
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.serialport-bluetooth-helper
+    info: serialport-bluetooth-helper
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.uDevkit-IDE
+    info: uDevkit-IDE
+    developer: wjyrich
+    developer_id: "147463620"
