@@ -331,3 +331,7 @@ repos:
     info: Snowboarder
     developer: Van020530
     developer_id: "84424520"
+  - repo: org.notabug.Snowball
+    info: Snowball
+    developer: Van020530
+    developer_id: "84424520"
