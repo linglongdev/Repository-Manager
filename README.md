@@ -56,7 +56,7 @@ actor 管理员
 alt 如果修改了linglong.yaml的version
 CICD -> AppRepository: 创建tag
 AppRepository -> OBS: 触发tag构建
-OBS -> Stable: 推送应用
+OBS -> Testing仓库: 推送应用
 end
 @enduml
 ``` -->
