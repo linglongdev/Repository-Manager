@@ -69,18 +69,43 @@ func check(filename string) error {
 	if err != nil {
 		return fmt.Errorf("unmarshal repo config: %w", err)
 	}
+	// 检查仓库是否已存在
 	var existsRepo []string
+	developerMap := make(map[string]string)
 	for i := range result.Repos {
-		repo := result.Repos[i].Repo
-		_, _, err := client.Repositories.Get(context.Background(), GitHubOrg, result.Repos[i].Repo)
+		repo := result.Repos[i]
+		if len(repo.Repo) == 0 {
+			log.Fatal("missing repo field")
+		}
+		if len(repo.Developer) == 0 {
+			log.Fatal("missing developer field")
+		}
+		// 对开发者去除
+		developerMap[repo.Developer] = repo.Repo
+		_, _, err := client.Repositories.Get(context.Background(), GitHubOrg, repo.Repo)
 		if err == nil {
-			log.Println("check", repo, "exists")
+			log.Println("check repo", repo, "exists")
 			existsRepo = append(existsRepo, result.Repos[i].Repo)
+			continue
 		}
 		log.Println("check", repo, "not exists")
 	}
 	if len(existsRepo) > 0 {
-		return fmt.Errorf("%s exists", strings.Join(existsRepo, ","))
+		return fmt.Errorf("repos %s exists", strings.Join(existsRepo, ","))
+	}
+	// 检查开发者是否不存在
+	var notFoundDeveloper []string
+	for developer := range developerMap {
+		_, err = getDeveloperID(client, developer)
+		if err != nil {
+			log.Println("check developer", developer, "not found")
+			notFoundDeveloper = append(notFoundDeveloper, developer)
+			continue
+		}
+		log.Println("check", developer, "found")
+	}
+	if len(notFoundDeveloper) > 0 {
+		return fmt.Errorf("developer %s not found", strings.Join(existsRepo, ","))
 	}
 	return nil
 }
