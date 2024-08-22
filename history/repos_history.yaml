@@ -451,3 +451,11 @@ repos:
     info: a PC program for displaying and controlling external data acquisition system through standard communication interface such as USB CDC class.
     developer: lampze
     developer_id: "20265354"
+  - repo: org.gencolormap
+    info: Gencolormap
+    developer: ygnxx
+    developer_id: "130267945"
+  - repo: io.github.Converseen
+    info: Converseen
+    developer: ygnxx
+    developer_id: "130267945"
