@@ -1,7 +1,8 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
-- repos: org.gencolormap
-  info: Gencolormap
-  developer: ygnxx
-- repos: io.github.Converseen
-  info: Converseen
-  developer: ygnxx
+repos:
+  - repo: org.gencolormap
+    info: Gencolormap
+    developer: ygnxx
+  - repo: io.github.Converseen
+    info: Converseen
+    developer: ygnxx
