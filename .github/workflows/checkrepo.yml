@@ -1,7 +1,7 @@
 name: check repo exists
 
 on:
-  pull_request:
+  pull_request_target:
 
 jobs:
   run:
@@ -20,8 +20,13 @@ jobs:
         env:
           MK_REPO_APP_PRIVATE_KEY: ${{secrets.MK_REPO_APP_PRIVATE_KEY}}
 
+      - uses: actions/checkout@v2
+        with:
+          ref: pull/${{ github.event.pull_request.number }}/head
+          path: pr
+
       - name: create repo
-        run: go run ./tools/mkrepo -check repos.yaml
+        run: go run ./tools/mkrepo -check pr/repos.yaml
         env:
           MK_REPO_ORG: linglongdev
           MK_REPO_MANAGER_REPO: Repository-Manager
