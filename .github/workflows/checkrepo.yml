@@ -1,10 +1,7 @@
-name: create app repo
+name: check repo exists
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - "main"
+  pull_request:
 
 jobs:
   run:
@@ -24,7 +21,7 @@ jobs:
           MK_REPO_APP_PRIVATE_KEY: ${{secrets.MK_REPO_APP_PRIVATE_KEY}}
 
       - name: create repo
-        run: go run ./tools/mkrepo -run
+        run: go run ./tools/mkrepo -check repos.yaml
         env:
           MK_REPO_ORG: linglongdev
           MK_REPO_MANAGER_REPO: Repository-Manager
