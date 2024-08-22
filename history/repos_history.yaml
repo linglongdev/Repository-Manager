@@ -339,3 +339,115 @@ repos:
     info: Catrooms
     developer: Van020530
     developer_id: "84424520"
+  - repo: io.github.Bandage
+    info: a Bioinformatics Application for Navigating De novo Assembly Graphs Easily
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Cliphist2
+    info: A clipboard history application
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.DDCToolbox
+    info: Create and edit DDC headset correction files
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.efibooteditor
+    info: Boot Editor for (U)EFI based systems
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.gfaviz
+    info: Graphical interactive tool for the visualization of sequence graphs in GFA format.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Lith
+    info: Multiplatform, mobile-focused WeeChat relay client
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.MapDownloader
+    info: Desktop application for downloading map tiles
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.MiniPhotoShop
+    info: A light and simple mini photoshop
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Nanairo
+    info: Nanairo is a physically plausible spectral renderer.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.nestool
+    info: Cross Platform replacement of NES Screen Tool
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.NewtonFractal
+    info: Qt application to visualize newton fractals
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.OpenHantek
+    info: OpenHantek is a DSO software for Hantek
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.OpenHantek6022
+    info: OpenHantek6022 is a DSO software for Hantek USB digital signal oscilloscopes 6022BE / BL
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.openPilotLog
+    info: A FOSS pilot logbook
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.opentimer
+    info: Fast and minimal speedcubing timer written in Qt
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.PixelMaestro-Studio
+    info: Qt-based desktop application for PixelMaestro.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.puyovs
+    info: A puzzle game similar to Puyo Puyo.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.qide
+    info: The Quake Mod IDE
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.qtads
+    info: A cross-platform, multimedia interpreter for TADS adventure games.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.SciTEQt
+    info: A port of the SciTE text editor to the Qt QML/Quick, which is optimized for touch devices.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ShaderGen
+    info: ShaderGen is a tool that automatically generates OpenGL Shading Language shaders that duplicate fixed function OpenGL behavior.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.skyrimqt
+    info: a self-made, 2D videogame inspired by Bethesda Softworks The Elder Scrolls Skyrim
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Synkron
+    info: a simple Qt application that allows you to sync folders,
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.UndertaleSaveEditor
+    info: Simple program by a simple person for simple people to simplify editing Undertale save files.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.words-picker
+    info: 取词应用
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.xmage-launcher-qt
+    info: An alternate launcher for the XMage project written in C++ using the Qt GUI framework.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.yacreader
+    info: Yet another comic reader
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.zero_elabviewer
+    info: a PC program for displaying and controlling external data acquisition system through standard communication interface such as USB CDC class.
+    developer: lampze
+    developer_id: "20265354"
