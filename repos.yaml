@@ -1,2 +1,32 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+  - repo: io.github.DrevoPowerConsole
+    info: DrevoPowerConsole
+    developer: wjyrich
+  - repo: io.github.HiddenSurfaceRemover
+    info: HiddenSurfaceRemover
+    developer: wjyrich
+  - repo: io.github.InterText_editor
+    info: InterText_editor
+    developer: wjyrich
+  - repo: io.github.cumulus-qt
+    info: cumulus-qt
+    developer: wjyrich
+  - repo: io.github.lmgr
+    info: lmgr
+    developer: wjyrich
+  - repo: io.github.neuro-sat
+    info: neuro-sat
+    developer: wjyrich
+  - repo: io.github.obpm
+    info: obpm
+    developer: wjyrich
+  - repo: io.github.rrcc
+    info: rrcc
+    developer: wjyrich
+  - repo: io.github.whid
+    info: whid
+    developer: wjyrich
+  - repo: io.github.yaps
+    info: yaps
+    developer: wjyrich
