@@ -13,8 +13,8 @@ jobs:
           path: main
       - uses: actions/checkout@v4
         with:
-          ref: pull/${{ github.event.pull_request.number }}/head
-          path: pr
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: new
 
       - uses: actions/setup-go@v5
         with:
@@ -28,7 +28,7 @@ jobs:
       - name: create repo
         run: |
           cd main
-          go run ./tools/mkrepo -check ../pr/repos.yaml
+          go run ./tools/mkrepo -check ../new/repos.yaml
         env:
           MK_REPO_ORG: linglongdev
           MK_REPO_MANAGER_REPO: Repository-Manager
