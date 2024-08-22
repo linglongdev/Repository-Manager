@@ -147,7 +147,7 @@ func run() error {
 				}
 				time.Sleep(time.Second)
 			}
-			return fmt.Errorf("create repo: %w", err)
+			return fmt.Errorf("create %s: %w", repo, err)
 		}
 		createdRepo = append(createdRepo, repo)
 		time.Sleep(time.Second)

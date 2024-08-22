@@ -9,9 +9,6 @@ repos:
   - repo: io.github.DDCToolbox
     info: Create and edit DDC headset correction files
     developer: lampze
-  - repo: io.github.dlt-viewer
-    info: Diagnostic Log and Trace viewing program
-    developer: lampze
   - repo: io.github.efibooteditor
     info: Boot Editor for (U)EFI based systems
     developer: lampze
