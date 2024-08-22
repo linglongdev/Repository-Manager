@@ -459,3 +459,43 @@ repos:
     info: Converseen
     developer: ygnxx
     developer_id: "130267945"
+  - repo: io.github.DrevoPowerConsole
+    info: DrevoPowerConsole
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.HiddenSurfaceRemover
+    info: HiddenSurfaceRemover
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.InterText_editor
+    info: InterText_editor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.cumulus-qt
+    info: cumulus-qt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.lmgr
+    info: lmgr
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.neuro-sat
+    info: neuro-sat
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.obpm
+    info: obpm
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.rrcc
+    info: rrcc
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.whid
+    info: whid
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.yaps
+    info: yaps
+    developer: wjyrich
+    developer_id: "147463620"
