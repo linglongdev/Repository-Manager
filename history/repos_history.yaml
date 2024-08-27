@@ -631,3 +631,7 @@ repos:
     info: visualizing the Lidar points data
     developer: lampze
     developer_id: "20265354"
+  - repo: io.github.dhewm3
+    info: dhewm 3 main repository
+    developer: Van020530
+    developer_id: "84424520"
