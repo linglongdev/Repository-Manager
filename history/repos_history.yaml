@@ -499,3 +499,135 @@ repos:
     info: yaps
     developer: wjyrich
     developer_id: "147463620"
+  - repo: io.github.CanSat
+    info: CanSat ground station software developed with Qt
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.cc2021
+    info: Application that interacts with Serial Studio to provide extra functionality needed
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.CDpal
+    info: analyze protein thermal and chemical stability data monitored by CD or fluorescence spectroscopy.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ClamAV-GUI
+    info: Front-End for ClamAV
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.dfasma
+    info: an open-source software used to compare audio files in time and frequency
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.droidbattles
+    info: A programming game, where you program bots in assembly.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.dropdabass
+    info: Compocase for the AI programming competition at The Gathering 2014
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.fotobox
+    info: Qt Photobooth application for Raspberry Pi, Linux and macOS
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.gba-mus-ripper-gui
+    info: A graphical frontend for my fork of Bregalad's 'gba-mus-ripper' program
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.kdceditor
+    info: Kirby's Dream Course / Kirby Bowl level editor (C++ / Qt)
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Kromophone
+    info: The Kromophone is a Color-to-Sound sensory substitution device created with tasks such as navigation, environment, and object recognition in mind.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Numpyviewer
+    info: Viewer for hyperspectral Numpy cubes and (2d/3d/4d)-tensors. (GPLv2)
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.OPL-PC-Tools
+    info: Desktop tools for working with Open PS2 Loader storages
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.padthv1
+    info: padthv1 - an old-school polyphonic additive synthesizer
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.playuver
+    info: Enhanced YUV video player based on Qt focusing on image/video analysis
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.PLIS
+    info: Protein Ligand Interaction Software (PLIS) for the analysis of dissociation constants between protein and ligand
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.qmqtt-client
+    info: MQTT Client GUI Written with Qt
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.QSLAM
+    info: Robotics Simultaneous Localization and Mapping
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.QTAdb
+    info: allows you to transfer files via ADB on Android phones, use terminal commands, and install new packages
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.RcloneBrowser
+    info: Simple cross platform GUI for rclone.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.recrossable
+    info: crossword game with simplistic handwriting recognition and automatic generation of crosswords
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.seducfg
+    info: SEDU Board Configurator
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Simple-system-monitor
+    info: Simple system monitor for Linux written in Qt
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.simul6
+    info: Simulation software for electrophoresis
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Skymake
+    info: A simple Skylander file (*.sky) generator.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.SmartServoFramework
+    info: A multi-platform C++ framework used to drive Dynamixel and HerkuleX smart actuators, and its control GUI.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.spacedisplay
+    info: Almost cross-platform way to analyze used disk space
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.tristar
+    info: tristar
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.TUNNEX
+    info: Tunneling in experiments (TUNNEX) is a free open-source program with an easy-to use graphical
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.veretino
+    info: An advanced multiple checksums calculator
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.viewts
+    info: Display PCR, DTS, PTS, bitrate, jitter of a mpeg TS
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.wubigendaqi
+    info: 五笔跟打器，五笔打字练习软件
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.XV11-LIDAR-Visualizer
+    info: visualizing the Lidar points data
+    developer: lampze
+    developer_id: "20265354"
