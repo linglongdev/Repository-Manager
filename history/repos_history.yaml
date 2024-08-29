@@ -639,3 +639,7 @@ repos:
     info: wine应用-企业微信
     developer: PeakVue
     developer_id: "129737754"
+  - repo: io.github.TuxFishing
+    info: TuxFishing
+    developer: Van020530
+    developer_id: "84424520"
