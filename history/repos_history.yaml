@@ -643,3 +643,7 @@ repos:
     info: TuxFishing
     developer: Van020530
     developer_id: "84424520"
+  - repo: io.github.Borg-ER-3
+    info: Borg-ER-3
+    developer: Van020530
+    developer_id: "84424520"
