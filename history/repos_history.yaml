@@ -647,3 +647,7 @@ repos:
     info: Borg-ER-3
     developer: Van020530
     developer_id: "84424520"
+  - repo: io.github.neverball
+    info: neverball
+    developer: Van020530
+    developer_id: "84424520"
