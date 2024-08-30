@@ -655,3 +655,11 @@ repos:
     info: Woxel
     developer: Van020530
     developer_id: "84424520"
+  - repo: org.deepin.reader
+    info: 深度文档查看器
+    developer: re2zero
+    developer_id: "83483572"
+  - repo: org.deepin.camera
+    info: 深度相机
+    developer: re2zero
+    developer_id: "83483572"
