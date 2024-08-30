@@ -1,2 +1,7 @@
-tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+  - repo: org.deepin.reader
+    info: 深度文档查看器
+    developer: re2zero
+  - repo: org.deepin.camera
+    info: 深度相机
+    developer: re2zero
