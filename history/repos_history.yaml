@@ -271,8 +271,8 @@ repos:
     info: Francis
     developer: inf-sup
     developer_id: "174466778"
-  - repo: io.github.CPP_SmartCalculatort
-    info: CPP_SmartCalculatort
+  - repo: io.github.CPP_SmartCalculator
+    info: CPP_SmartCalculator
     developer: wjyrich
     developer_id: "147463620"
   - repo: io.github.FreeJoyQt
