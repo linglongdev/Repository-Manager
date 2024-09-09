@@ -1,2 +1,35 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+  - repo: io.github.AmigaED
+    info: AmigaED
+    developer: wjyrich
+  - repo: io.github.Porcupine
+    info: Porcupine
+    developer: wjyrich
+  - repo: io.github.SerialTool
+    info: SerialTool
+    developer: wjyrich
+  - repo: io.github.WebEditSci
+    info: WebEditSci
+    developer: wjyrich
+  - repo: io.github.ZiraEditor
+    info: ZiraEditor
+    developer: wjyrich
+  - repo: io.github.mariamole
+    info: mariamole
+    developer: wjyrich
+  - repo: io.github.openbbm
+    info: openbbm
+    developer: wjyrich
+  - repo: io.github.pro_office_calc
+    info: pro_office_calc
+    developer: wjyrich
+  - repo: io.github.qdevcpp
+    info: qdevcpp
+    developer: wjyrich
+  - repo: io.github.qsseditor
+    info: qsseditor
+    developer: wjyrich
+  - repo: io.github.tabliato
+    info: tabliato
+    developer: wjyrich
