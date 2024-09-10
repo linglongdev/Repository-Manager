@@ -1,2 +1,8 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+- repo: com.foxit.foxitpdfeditor
+  info: 福昕高级PDF编辑器，提供PDF阅读、创建、编辑、保护和PDF页面管理等功能，帮助用户高效处理PDF文档和表单。
+  developer: System233
+- repo: com.rembb.jsx-tc
+  info: 三个课堂应用的电脑导播软件
+  developer: System233
