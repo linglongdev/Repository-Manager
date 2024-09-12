@@ -663,3 +663,83 @@ repos:
     info: 深度相机
     developer: re2zero
     developer_id: "83483572"
+  - repo: com.qq.weixin.deepin
+    info: wine应用-微信
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: io.github.MBL2017
+    info: MBL2017
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.SPIERS
+    info: SPIERS
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.Serial-Studio
+    info: Serial-Studio
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.amphetype2
+    info: amphetype2
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.dsnote
+    info: dsnote
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qlcplugs
+    info: qlcplugs
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.revosim
+    info: revosim
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.trevosim
+    info: trevosim
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.AmigaED
+    info: AmigaED
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.Porcupine
+    info: Porcupine
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.SerialTool
+    info: SerialTool
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.WebEditSci
+    info: WebEditSci
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.ZiraEditor
+    info: ZiraEditor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.mariamole
+    info: mariamole
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.openbbm
+    info: openbbm
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.pro_office_calc
+    info: pro_office_calc
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qdevcpp
+    info: qdevcpp
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qsseditor
+    info: qsseditor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.tabliato
+    info: tabliato
+    developer: wjyrich
+    developer_id: "147463620"
