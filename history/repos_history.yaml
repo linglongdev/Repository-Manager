@@ -743,3 +743,11 @@ repos:
     info: tabliato
     developer: wjyrich
     developer_id: "147463620"
+  - repo: com.foxit.foxitpdfeditor
+    info: 福昕高级PDF编辑器，提供PDF阅读、创建、编辑、保护和PDF页面管理等功能，帮助用户高效处理PDF文档和表单。
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.rembb.jsx-tc
+    info: 三个课堂应用的电脑导播软件
+    developer: System233
+    developer_id: "20336040"
