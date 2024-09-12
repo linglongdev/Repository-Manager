@@ -1,26 +1,2 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-  - repo: io.github.MBL2017
-    info: MBL2017
-    developer: wjyrich
-  - repo: io.github.SPIERS
-    info: SPIERS
-    developer: wjyrich
-  - repo: io.github.Serial-Studio
-    info: Serial-Studio
-    developer: wjyrich
-  - repo: io.github.amphetype2
-    info: amphetype2
-    developer: wjyrich
-  - repo: io.github.dsnote
-    info: dsnote
-    developer: wjyrich
-  - repo: io.github.qlcplugs
-    info: qlcplugs
-    developer: wjyrich
-  - repo: io.github.revosim
-    info: revosim
-    developer: wjyrich
-  - repo: io.github.trevosim
-    info: trevosim
-    developer: wjyrich
