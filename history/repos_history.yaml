@@ -667,3 +667,35 @@ repos:
     info: wine应用-微信
     developer: PeakVue
     developer_id: "129737754"
+  - repo: io.github.MBL2017
+    info: MBL2017
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.SPIERS
+    info: SPIERS
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.Serial-Studio
+    info: Serial-Studio
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.amphetype2
+    info: amphetype2
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.dsnote
+    info: dsnote
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qlcplugs
+    info: qlcplugs
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.revosim
+    info: revosim
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.trevosim
+    info: trevosim
+    developer: wjyrich
+    developer_id: "147463620"
