@@ -699,3 +699,47 @@ repos:
     info: trevosim
     developer: wjyrich
     developer_id: "147463620"
+  - repo: io.github.AmigaED
+    info: AmigaED
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.Porcupine
+    info: Porcupine
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.SerialTool
+    info: SerialTool
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.WebEditSci
+    info: WebEditSci
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.ZiraEditor
+    info: ZiraEditor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.mariamole
+    info: mariamole
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.openbbm
+    info: openbbm
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.pro_office_calc
+    info: pro_office_calc
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qdevcpp
+    info: qdevcpp
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qsseditor
+    info: qsseditor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.tabliato
+    info: tabliato
+    developer: wjyrich
+    developer_id: "147463620"
