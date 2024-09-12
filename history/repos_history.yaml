@@ -663,3 +663,7 @@ repos:
     info: 深度相机
     developer: re2zero
     developer_id: "83483572"
+  - repo: com.qq.weixin.deepin
+    info: wine应用-微信
+    developer: PeakVue
+    developer_id: "129737754"
