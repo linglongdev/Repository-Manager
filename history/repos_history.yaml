@@ -751,3 +751,79 @@ repos:
     info: 三个课堂应用的电脑导播软件
     developer: System233
     developer_id: "20336040"
+  - repo: io.github.GenericTelemetryAnalyzer
+    info: GenericTelemetryAnalyzer
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.Image-Label-Tool
+    info: Image-Label-Tool
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.ImagePixelator
+    info: ImagePixelator
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.NightlyBuilder
+    info: NightlyBuilder
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.QRegovar
+    info: QRegovar
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.RYCOM
+    info: RYCOM
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.XboxBurner
+    info: XboxBurner
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.avignon
+    info: avignon
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.fontbuilder
+    info: fontbuilder
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.funhouse
+    info: funhouse
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.identical-file
+    info: identical-file
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.indigoDock
+    info: indigoDock
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.minisynth-qt
+    info: minisynth-qt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.nonogram-qt
+    info: nonogram-qt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qcodedesk
+    info: qcodedesk
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qorbit
+    info: qorbit
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.ragingmldi
+    info: ragingmldi
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.swarmslmu
+    info: swarmslmu
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.timeslicer
+    info: timeslicer
+    developer: wjyrich
+    developer_id: "147463620"
