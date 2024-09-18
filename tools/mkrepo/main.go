@@ -3,11 +3,13 @@ package main
 import (
 	"bytes"
 	"context"
+	"flag"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
 	"strconv"
+	"strings"
 	"time"
 
 	"github.com/bradleyfalzon/ghinstallation/v2"
@@ -23,10 +25,89 @@ type Repo struct {
 }
 
 func main() {
-	err := run()
-	if err != nil {
-		log.Panic(err)
+	var runFlag bool
+	var checkFlag string
+	flag.StringVar(&checkFlag, "check", "", "check yaml file")
+	flag.BoolVar(&runFlag, "run", false, "start create repo")
+	flag.Parse()
+	if len(checkFlag) > 0 {
+		err := check(checkFlag)
+		if err != nil {
+			log.Fatal(err)
+		}
+		return
 	}
+	if runFlag {
+		err := run()
+		if err != nil {
+			log.Fatal(err)
+		}
+		return
+	}
+	flag.PrintDefaults()
+}
+
+func check(filename string) error {
+	var GitHubOrg = os.Getenv("MK_REPO_ORG")
+	var GitHubAppID = os.Getenv("MK_REPO_APP_ID")
+	var GitHubAppInstallID = os.Getenv("MK_REPO_APP_INSTALL_ID")
+	var GitHubAppPrivateKey = os.Getenv("MK_REPO_APP_PRIVATE_KEY")
+	// 初始化github client
+	client, err := initGithubClient(GitHubAppID, GitHubAppInstallID, GitHubAppPrivateKey)
+	if err != nil {
+		return fmt.Errorf("init github client: %w", err)
+	}
+
+	data, err := os.ReadFile(filename)
+	if err != nil {
+		return fmt.Errorf("read file: %w", err)
+	}
+	result := struct {
+		Repos []*Repo
+	}{}
+	err = yaml.Unmarshal(data, &result)
+	if err != nil {
+		return fmt.Errorf("unmarshal repo config: %w", err)
+	}
+	// 检查仓库是否已存在
+	var existsRepo []string
+	developerMap := make(map[string]string)
+	for i := range result.Repos {
+		repo := result.Repos[i]
+		if len(repo.Repo) == 0 {
+			log.Fatal("missing repo field")
+		}
+		if len(repo.Developer) == 0 {
+			log.Fatal("missing developer field")
+		}
+		// 对开发者去除
+		developerMap[repo.Developer] = repo.Repo
+		_, _, err := client.Repositories.Get(context.Background(), GitHubOrg, repo.Repo)
+		if err == nil {
+			log.Println("check repo", repo, "exists")
+			existsRepo = append(existsRepo, result.Repos[i].Repo)
+			continue
+		}
+		log.Println("check", repo, "not exists")
+	}
+	if len(existsRepo) > 0 {
+		return fmt.Errorf("repos %s exists", strings.Join(existsRepo, ","))
+	}
+	// 检查开发者是否不存在
+	var notFoundDeveloper []string
+	for developer := range developerMap {
+		_, err = getDeveloperID(client, developer)
+		if err != nil {
+			log.Println("check developer", developer, "not found")
+			notFoundDeveloper = append(notFoundDeveloper, developer)
+			continue
+		}
+		log.Println("check", developer, "found")
+	}
+	if len(notFoundDeveloper) > 0 {
+		return fmt.Errorf("developer %s not found", strings.Join(existsRepo, ","))
+	}
+	return nil
 }
 
 func run() error {
@@ -76,12 +157,24 @@ func run() error {
 	if len(newRepo) == 0 {
 		return nil
 	}
+
 	// 批量创建新增记录的应用仓库
+	var createdRepo []string
 	for _, repo := range newRepo {
+		log.Println("create", repo)
 		err = createRepo(client, GitHubOrg, repo, GitHubWebhookUrl, GitHubWebhookSecret)
 		if err != nil {
-			return fmt.Errorf("create repo: %w", err)
+			// 如果批量创建发生错误，删除已经创建的仓库
+			for i := range createdRepo {
+				_, err := client.Repositories.Delete(context.Background(), GitHubOrg, createdRepo[i])
+				if err != nil {
+					log.Println("delete repo: %w", err)
+				}
+				time.Sleep(time.Second)
+			}
+			return fmt.Errorf("create %s: %w", repo, err)
 		}
+		createdRepo = append(createdRepo, repo)
 		time.Sleep(time.Second)
 	}
 	// 将repos.yaml文件恢复成默认模板，避免多个PR合并冲突

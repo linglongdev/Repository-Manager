@@ -267,3 +267,563 @@ repos:
     info: wiibafu
     developer: wjyrich
     developer_id: "147463620"
+  - repo: org.kde.francis
+    info: Francis
+    developer: inf-sup
+    developer_id: "174466778"
+  - repo: io.github.CPP_SmartCalculator
+    info: CPP_SmartCalculator
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.FreeJoyQt
+    info: FreeJoyQt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.FreeNoiseMap-FNM
+    info: FreeNoiseMap-FNM
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.PetoiControllerQt
+    info: PetoiControllerQt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.SYLoader
+    info: SYLoader
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.TouchTyper
+    info: TouchTyper
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.UDTStudio
+    info: UDTStudio
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.XmdvTool
+    info: XmdvTool
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.image-editor
+    info: image-editor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.kate_pdf_converter
+    info: kate_pdf_converter
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.serialport-bluetooth-helper
+    info: serialport-bluetooth-helper
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.uDevkit-IDE
+    info: uDevkit-IDE
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.PoryDrive-2.0
+    info: Just a car game, with Porygon!
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: org.notabug.Snowling
+    info: A bowling game of luck
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: org.notabug.Snowboarder
+    info: Snowboarder
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: org.notabug.Snowball
+    info: Snowball
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.Catrooms
+    info: Catrooms
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.Bandage
+    info: a Bioinformatics Application for Navigating De novo Assembly Graphs Easily
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Cliphist2
+    info: A clipboard history application
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.DDCToolbox
+    info: Create and edit DDC headset correction files
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.efibooteditor
+    info: Boot Editor for (U)EFI based systems
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.gfaviz
+    info: Graphical interactive tool for the visualization of sequence graphs in GFA format.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Lith
+    info: Multiplatform, mobile-focused WeeChat relay client
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.MapDownloader
+    info: Desktop application for downloading map tiles
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.MiniPhotoShop
+    info: A light and simple mini photoshop
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Nanairo
+    info: Nanairo is a physically plausible spectral renderer.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.nestool
+    info: Cross Platform replacement of NES Screen Tool
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.NewtonFractal
+    info: Qt application to visualize newton fractals
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.OpenHantek
+    info: OpenHantek is a DSO software for Hantek
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.OpenHantek6022
+    info: OpenHantek6022 is a DSO software for Hantek USB digital signal oscilloscopes 6022BE / BL
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.openPilotLog
+    info: A FOSS pilot logbook
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.opentimer
+    info: Fast and minimal speedcubing timer written in Qt
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.PixelMaestro-Studio
+    info: Qt-based desktop application for PixelMaestro.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.puyovs
+    info: A puzzle game similar to Puyo Puyo.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.qide
+    info: The Quake Mod IDE
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.qtads
+    info: A cross-platform, multimedia interpreter for TADS adventure games.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.SciTEQt
+    info: A port of the SciTE text editor to the Qt QML/Quick, which is optimized for touch devices.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ShaderGen
+    info: ShaderGen is a tool that automatically generates OpenGL Shading Language shaders that duplicate fixed function OpenGL behavior.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.skyrimqt
+    info: a self-made, 2D videogame inspired by Bethesda Softworks The Elder Scrolls Skyrim
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Synkron
+    info: a simple Qt application that allows you to sync folders,
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.UndertaleSaveEditor
+    info: Simple program by a simple person for simple people to simplify editing Undertale save files.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.words-picker
+    info: 取词应用
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.xmage-launcher-qt
+    info: An alternate launcher for the XMage project written in C++ using the Qt GUI framework.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.yacreader
+    info: Yet another comic reader
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.zero_elabviewer
+    info: a PC program for displaying and controlling external data acquisition system through standard communication interface such as USB CDC class.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: org.gencolormap
+    info: Gencolormap
+    developer: ygnxx
+    developer_id: "130267945"
+  - repo: io.github.Converseen
+    info: Converseen
+    developer: ygnxx
+    developer_id: "130267945"
+  - repo: io.github.DrevoPowerConsole
+    info: DrevoPowerConsole
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.HiddenSurfaceRemover
+    info: HiddenSurfaceRemover
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.InterText_editor
+    info: InterText_editor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.cumulus-qt
+    info: cumulus-qt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.lmgr
+    info: lmgr
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.neuro-sat
+    info: neuro-sat
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.obpm
+    info: obpm
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.rrcc
+    info: rrcc
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.whid
+    info: whid
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.yaps
+    info: yaps
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.CanSat
+    info: CanSat ground station software developed with Qt
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.cc2021
+    info: Application that interacts with Serial Studio to provide extra functionality needed
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.CDpal
+    info: analyze protein thermal and chemical stability data monitored by CD or fluorescence spectroscopy.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ClamAV-GUI
+    info: Front-End for ClamAV
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.dfasma
+    info: an open-source software used to compare audio files in time and frequency
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.droidbattles
+    info: A programming game, where you program bots in assembly.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.dropdabass
+    info: Compocase for the AI programming competition at The Gathering 2014
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.fotobox
+    info: Qt Photobooth application for Raspberry Pi, Linux and macOS
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.gba-mus-ripper-gui
+    info: A graphical frontend for my fork of Bregalad's 'gba-mus-ripper' program
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.kdceditor
+    info: Kirby's Dream Course / Kirby Bowl level editor (C++ / Qt)
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Kromophone
+    info: The Kromophone is a Color-to-Sound sensory substitution device created with tasks such as navigation, environment, and object recognition in mind.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Numpyviewer
+    info: Viewer for hyperspectral Numpy cubes and (2d/3d/4d)-tensors. (GPLv2)
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.OPL-PC-Tools
+    info: Desktop tools for working with Open PS2 Loader storages
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.padthv1
+    info: padthv1 - an old-school polyphonic additive synthesizer
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.playuver
+    info: Enhanced YUV video player based on Qt focusing on image/video analysis
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.PLIS
+    info: Protein Ligand Interaction Software (PLIS) for the analysis of dissociation constants between protein and ligand
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.qmqtt-client
+    info: MQTT Client GUI Written with Qt
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.QSLAM
+    info: Robotics Simultaneous Localization and Mapping
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.QTAdb
+    info: allows you to transfer files via ADB on Android phones, use terminal commands, and install new packages
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.RcloneBrowser
+    info: Simple cross platform GUI for rclone.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.recrossable
+    info: crossword game with simplistic handwriting recognition and automatic generation of crosswords
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.seducfg
+    info: SEDU Board Configurator
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Simple-system-monitor
+    info: Simple system monitor for Linux written in Qt
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.simul6
+    info: Simulation software for electrophoresis
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Skymake
+    info: A simple Skylander file (*.sky) generator.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.SmartServoFramework
+    info: A multi-platform C++ framework used to drive Dynamixel and HerkuleX smart actuators, and its control GUI.
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.spacedisplay
+    info: Almost cross-platform way to analyze used disk space
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.tristar
+    info: tristar
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.TUNNEX
+    info: Tunneling in experiments (TUNNEX) is a free open-source program with an easy-to use graphical
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.veretino
+    info: An advanced multiple checksums calculator
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.viewts
+    info: Display PCR, DTS, PTS, bitrate, jitter of a mpeg TS
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.wubigendaqi
+    info: 五笔跟打器，五笔打字练习软件
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.XV11-LIDAR-Visualizer
+    info: visualizing the Lidar points data
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.dhewm3
+    info: dhewm 3 main repository
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: com.qq.weixin.work.deepin
+    info: wine应用-企业微信
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: io.github.TuxFishing
+    info: TuxFishing
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.Borg-ER-3
+    info: Borg-ER-3
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.neverball
+    info: neverball
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.Woxel
+    info: Woxel
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: org.deepin.reader
+    info: 深度文档查看器
+    developer: re2zero
+    developer_id: "83483572"
+  - repo: org.deepin.camera
+    info: 深度相机
+    developer: re2zero
+    developer_id: "83483572"
+  - repo: com.qq.weixin.deepin
+    info: wine应用-微信
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: io.github.MBL2017
+    info: MBL2017
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.SPIERS
+    info: SPIERS
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.Serial-Studio
+    info: Serial-Studio
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.amphetype2
+    info: amphetype2
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.dsnote
+    info: dsnote
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qlcplugs
+    info: qlcplugs
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.revosim
+    info: revosim
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.trevosim
+    info: trevosim
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.AmigaED
+    info: AmigaED
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.Porcupine
+    info: Porcupine
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.SerialTool
+    info: SerialTool
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.WebEditSci
+    info: WebEditSci
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.ZiraEditor
+    info: ZiraEditor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.mariamole
+    info: mariamole
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.openbbm
+    info: openbbm
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.pro_office_calc
+    info: pro_office_calc
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qdevcpp
+    info: qdevcpp
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qsseditor
+    info: qsseditor
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.tabliato
+    info: tabliato
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: com.foxit.foxitpdfeditor
+    info: 福昕高级PDF编辑器，提供PDF阅读、创建、编辑、保护和PDF页面管理等功能，帮助用户高效处理PDF文档和表单。
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.rembb.jsx-tc
+    info: 三个课堂应用的电脑导播软件
+    developer: System233
+    developer_id: "20336040"
+  - repo: io.github.GenericTelemetryAnalyzer
+    info: GenericTelemetryAnalyzer
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.Image-Label-Tool
+    info: Image-Label-Tool
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.ImagePixelator
+    info: ImagePixelator
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.NightlyBuilder
+    info: NightlyBuilder
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.QRegovar
+    info: QRegovar
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.RYCOM
+    info: RYCOM
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.XboxBurner
+    info: XboxBurner
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.avignon
+    info: avignon
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.fontbuilder
+    info: fontbuilder
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.funhouse
+    info: funhouse
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.identical-file
+    info: identical-file
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.indigoDock
+    info: indigoDock
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.minisynth-qt
+    info: minisynth-qt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.nonogram-qt
+    info: nonogram-qt
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qcodedesk
+    info: qcodedesk
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.qorbit
+    info: qorbit
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.ragingmldi
+    info: ragingmldi
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.swarmslmu
+    info: swarmslmu
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.timeslicer
+    info: timeslicer
+    developer: wjyrich
+    developer_id: "147463620"

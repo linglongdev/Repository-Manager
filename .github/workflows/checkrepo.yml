@@ -1,10 +1,7 @@
-name: create app repo
+name: check repo exists
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - "main"
+  pull_request_target:
 
 jobs:
   run:
@@ -12,19 +9,26 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          path: main
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+
       - uses: actions/setup-go@v5
         with:
           go-version: ^1.22
           cache-dependency-path: |
-            go.sum
-
+            main/go.sum
       - name: save private to file
         run: 'echo "$MK_REPO_APP_PRIVATE_KEY" > /tmp/private_key'
         env:
           MK_REPO_APP_PRIVATE_KEY: ${{secrets.MK_REPO_APP_PRIVATE_KEY}}
-
       - name: create repo
-        run: go run ./tools/mkrepo -run
+        run: |
+          cd main
+          go run ./tools/mkrepo -check ../pr/repos.yaml
         env:
           MK_REPO_ORG: linglongdev
           MK_REPO_MANAGER_REPO: Repository-Manager
