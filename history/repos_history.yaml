@@ -827,3 +827,35 @@ repos:
     info: timeslicer
     developer: wjyrich
     developer_id: "147463620"
+  - repo: io.github.Unciv
+    info: Unciv
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: net.sourceforge.atanks
+    info: atanks
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.grandorgue
+    info: grandorgue
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.AlizaMS
+    info: AlizaMS
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.ares
+    info: ares
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.goatattack
+    info: goatattack
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.Spiderbro-2
+    info: Spiderbro-2
+    developer: Van020530
+    developer_id: "84424520"
+  - repo: io.github.oceanpop
+    info: oceanpop
+    developer: Van020530
+    developer_id: "84424520"
