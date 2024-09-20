@@ -963,3 +963,7 @@ repos:
     info: weather-desktop-app
     developer: wjyrich
     developer_id: "147463620"
+  - repo: com.qq.music
+    info: QQ Music Linux client
+    developer: ziggy1030
+    developer_id: "39146681"
