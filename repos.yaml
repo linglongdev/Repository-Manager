@@ -1,2 +1,170 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+  - repo: io.github.2DCarGameWithGA
+    info: 2DCarGameWithGA
+    developer: lampze
+  - repo: io.github.Addle
+    info: Addle
+    developer: lampze
+  - repo: io.github.ADLplug
+    info: ADLplug
+    developer: lampze
+  - repo: io.github.AppleSAWS
+    info: AppleSAWS
+    developer: lampze
+  - repo: io.github.audioreceiver
+    info: audioreceiver
+    developer: lampze
+  - repo: io.github.BatterySimulator
+    info: BatterySimulator
+    developer: lampze
+  - repo: io.github.Bill-Bot
+    info: Bill-Bot
+    developer: lampze
+  - repo: io.github.Candle2
+    info: Candle2
+    developer: lampze
+  - repo: io.github.CertificateViewer
+    info: CertificateViewer
+    developer: lampze
+  - repo: io.github.ClassicImageViewer
+    info: ClassicImageViewer
+    developer: lampze
+  - repo: io.github.CNCRun
+    info: CNCRun
+    developer: lampze
+  - repo: io.github.CodenDraw
+    info: CodenDraw
+    developer: lampze
+  - repo: io.github.CoinBrowser
+    info: CoinBrowser
+    developer: lampze
+  - repo: io.github.ColoredSquareDetector
+    info: ColoredSquareDetector
+    developer: lampze
+  - repo: io.github.ColorExtractor
+    info: ColorExtractor
+    developer: lampze
+  - repo: io.github.Cosmos
+    info: Cosmos
+    developer: lampze
+  - repo: io.github.Crypto-Tracker
+    info: Crypto-Tracker
+    developer: lampze
+  - repo: io.github.DotaCardDuel2
+    info: DotaCardDuel2
+    developer: lampze
+  - repo: io.github.ECG
+    info: ECG
+    developer: lampze
+  - repo: io.github.effort-log
+    info: effort-log
+    developer: lampze
+  - repo: io.github.EnterpriseOptimization
+    info: EnterpriseOptimization
+    developer: lampze
+  - repo: io.github.freqStratStat
+    info: freqStratStat
+    developer: lampze
+  - repo: io.github.FSM
+    info: FSM
+    developer: lampze
+  - repo: io.github.GIMPdocs
+    info: GIMPdocs
+    developer: lampze
+  - repo: io.github.GrafOnto
+    info: GrafOnto
+    developer: lampze
+  - repo: io.github.GraphBuilder
+    info: GraphBuilder
+    developer: lampze
+  - repo: io.github.GRATE
+    info: GRATE
+    developer: lampze
+  - repo: io.github.HulaLoop
+    info: HulaLoop
+    developer: lampze
+  - repo: io.github.IdTool
+    info: IdTool
+    developer: lampze
+  - repo: io.github.ImageCropper
+    info: ImageCropper
+    developer: lampze
+  - repo: io.github.ImageMedian
+    info: ImageMedian
+    developer: lampze
+  - repo: io.github.Interpolator
+    info: Interpolator
+    developer: lampze
+  - repo: io.github.LisaBackup
+    info: LisaBackup
+    developer: lampze
+  - repo: io.github.MetaPathwaysGUI
+    info: MetaPathwaysGUI
+    developer: lampze
+  - repo: io.github.Mort
+    info: Mort
+    developer: lampze
+  - repo: io.github.MPax
+    info: MPax
+    developer: lampze
+  - repo: io.github.NetworkOscilloscope
+    info: NetworkOscilloscope
+    developer: lampze
+  - repo: io.github.openshack
+    info: openshack
+    developer: lampze
+  - repo: io.github.opl3_bank_editor
+    info: opl3_bank_editor
+    developer: lampze
+  - repo: io.github.photoflare
+    info: photoflare
+    developer: lampze
+  - repo: io.github.QML_Movie_Renderer
+    info: QML_Movie_Renderer
+    developer: lampze
+  - repo: io.github.qmtunnel
+    info: qmtunnel
+    developer: lampze
+  - repo: io.github.qutselect
+    info: qutselect
+    developer: lampze
+  - repo: io.github.redinav
+    info: redinav
+    developer: lampze
+  - repo: io.github.reef
+    info: reef
+    developer: lampze
+  - repo: io.github.rtStockData
+    info: rtStockData
+    developer: lampze
+  - repo: io.github.shruthi-editor
+    info: shruthi-editor
+    developer: lampze
+  - repo: io.github.simplesysexxer
+    info: simplesysexxer
+    developer: lampze
+  - repo: io.github.StocksQMLandCpp
+    info: StocksQMLandCpp
+    developer: lampze
+  - repo: io.github.terrain
+    info: terrain
+    developer: lampze
+  - repo: io.github.TowerDefense
+    info: TowerDefense
+    developer: lampze
+  - repo: io.github.ugene
+    info: ugene
+    developer: lampze
+  - repo: io.github.v2rock
+    info: v2rock
+    developer: lampze
+  - repo: io.github.VIC
+    info: VIC
+    developer: lampze
+  - repo: io.github.witchy-qss-editor
+    info: witchy-qss-editor
+    developer: lampze
+  - repo: io.github.XcVario
+    info: XcVario
+    developer: lampze
