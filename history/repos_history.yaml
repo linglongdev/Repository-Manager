@@ -1199,3 +1199,7 @@ repos:
     info: XcVario
     developer: lampze
     developer_id: "20265354"
+  - repo: com.netease.youdaonote.linyaps
+    info: 有道云笔记
+    developer: myml
+    developer_id: "13045857"
