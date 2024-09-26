@@ -963,3 +963,243 @@ repos:
     info: weather-desktop-app
     developer: wjyrich
     developer_id: "147463620"
+  - repo: com.qq.music
+    info: QQ Music Linux client
+    developer: ziggy1030
+    developer_id: "39146681"
+  - repo: io.github.sortvisualization
+    info: sortvisualization
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.boris
+    info: boris
+    developer: wjyrich
+    developer_id: "147463620"
+  - repo: io.github.2DCarGameWithGA
+    info: 2DCarGameWithGA
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Addle
+    info: Addle
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ADLplug
+    info: ADLplug
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.AppleSAWS
+    info: AppleSAWS
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.audioreceiver
+    info: audioreceiver
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.BatterySimulator
+    info: BatterySimulator
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Bill-Bot
+    info: Bill-Bot
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Candle2
+    info: Candle2
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.CertificateViewer
+    info: CertificateViewer
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ClassicImageViewer
+    info: ClassicImageViewer
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.CNCRun
+    info: CNCRun
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.CodenDraw
+    info: CodenDraw
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.CoinBrowser
+    info: CoinBrowser
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ColoredSquareDetector
+    info: ColoredSquareDetector
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ColorExtractor
+    info: ColorExtractor
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Cosmos
+    info: Cosmos
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Crypto-Tracker
+    info: Crypto-Tracker
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.DotaCardDuel2
+    info: DotaCardDuel2
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ECG
+    info: ECG
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.effort-log
+    info: effort-log
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.EnterpriseOptimization
+    info: EnterpriseOptimization
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.freqStratStat
+    info: freqStratStat
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.FSM
+    info: FSM
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.GIMPdocs
+    info: GIMPdocs
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.GrafOnto
+    info: GrafOnto
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.GraphBuilder
+    info: GraphBuilder
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.GRATE
+    info: GRATE
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.HulaLoop
+    info: HulaLoop
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.IdTool
+    info: IdTool
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ImageCropper
+    info: ImageCropper
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ImageMedian
+    info: ImageMedian
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Interpolator
+    info: Interpolator
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.LisaBackup
+    info: LisaBackup
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.MetaPathwaysGUI
+    info: MetaPathwaysGUI
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.Mort
+    info: Mort
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.MPax
+    info: MPax
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.NetworkOscilloscope
+    info: NetworkOscilloscope
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.openshack
+    info: openshack
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.opl3_bank_editor
+    info: opl3_bank_editor
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.photoflare
+    info: photoflare
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.QML_Movie_Renderer
+    info: QML_Movie_Renderer
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.qmtunnel
+    info: qmtunnel
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.qutselect
+    info: qutselect
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.redinav
+    info: redinav
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.reef
+    info: reef
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.rtStockData
+    info: rtStockData
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.shruthi-editor
+    info: shruthi-editor
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.simplesysexxer
+    info: simplesysexxer
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.StocksQMLandCpp
+    info: StocksQMLandCpp
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.terrain
+    info: terrain
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.TowerDefense
+    info: TowerDefense
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.ugene
+    info: ugene
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.v2rock
+    info: v2rock
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.VIC
+    info: VIC
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.witchy-qss-editor
+    info: witchy-qss-editor
+    developer: lampze
+    developer_id: "20265354"
+  - repo: io.github.XcVario
+    info: XcVario
+    developer: lampze
+    developer_id: "20265354"
+  - repo: com.netease.youdaonote.linyaps
+    info: 有道云笔记
+    developer: myml
+    developer_id: "13045857"
