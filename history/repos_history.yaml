@@ -1207,3 +1207,43 @@ repos:
     info: QQ Docs
     developer: ziggy1030
     developer_id: "39146681"
+  - repo: com.qq.video.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.qq.music.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.popcap.plantsvszombies.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.pcfreetime.formatfactory.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.evernote.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.douyin.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.cctv.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.alipay.devtools.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.wymail.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
+  - repo: com.foxmail.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
