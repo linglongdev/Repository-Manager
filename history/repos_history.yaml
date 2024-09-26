@@ -1203,3 +1203,7 @@ repos:
     info: 有道云笔记
     developer: myml
     developer_id: "13045857"
+  - repo: com.qq.docs.tdappdesktop
+    info: QQ Docs
+    developer: ziggy1030
+    developer_id: "39146681"
