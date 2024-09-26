@@ -3,3 +3,33 @@ repos:
 - repo: com.qq.weixin.deepin
   info: wine应用-微信
   developer: PeakVue
+- repo: com.qq.video.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.qq.music.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.popcap.plantsvszombies.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.pcfreetime.formatfactory.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.evernote.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.douyin.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.cctv.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.alipay.devtools.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.wymail.deepin
+  info: wine应用
+  developer: PeakVue
+- repo: com.foxmail.deepin
+  info: wine应用
+  developer: PeakVue
