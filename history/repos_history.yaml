@@ -1247,3 +1247,527 @@ repos:
     info: wine应用
     developer: PeakVue
     developer_id: "129737754"
+  - repo: aixueshi.linyaps
+    info: 爱学仕校园教师端
+    developer: System233
+    developer_id: "20336040"
+  - repo: bidfiledownloader.linyaps
+    info: 投标文件下载加速客户端
+    developer: System233
+    developer_id: "20336040"
+  - repo: china.nfs-browser.linyaps
+    info: 方德浏览器
+    developer: System233
+    developer_id: "20336040"
+  - repo: classin.linyaps
+    info: ClassIn
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.ankexinchuang.weimail.linyaps
+    info: 微邮个人版
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.bizconf.bizcloudec.linyaps
+    info: 超视云企业版
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.bosyun.pixso.linyaps
+    info: Pixso-协同设计
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.ccwork.com.linyaps
+    info: 360织语-数字化工作门户平台
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.com.topsec.topsap.linyaps
+    info: 安全接入
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.com.xcsa.uos.linyaps
+    info: 数据安全集中管控
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.foxitsoftware.online.linyaps
+    info: 福昕高级PDF编辑器网页版
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.greenpaper.reader.linyaps
+    info: 绿页阅读器
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.i4.i4tools.linyaps
+    info: 爱思助手
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.lanxin.linyaps
+    info: 蓝信
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.loongnix.lbrowser.linyaps
+    info: 龙芯浏览器
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.suwell.reader.appstore.linyaps
+    info: 数科OFD
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.ts-it.suite.linyaps
+    info: 泰山办公2022专业版
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.turboex.turboexclient.linyaps
+    info: TurboExClient-邮箱
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.vrv.linkdood.linyaps
+    info: 信源密信
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.wps.wps-office-pro.linyaps
+    info: WPS2019专业版
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.wps.wps-office.linyaps
+    info: WPS Office 2019 For Linux
+    developer: System233
+    developer_id: "20336040"
+  - repo: cn.yidianwan.cloudgame.linyaps
+    info: 易点玩云游戏
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.163.mailmaster.linyaps
+    info: 网易邮箱大师
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.aisdp.linyaps
+    info: 亚信安全SDP
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.alibabainc.dingtalk.linyaps
+    info: 钉钉-让工作学习更简单
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.apowersoft.apowermanager.linyaps
+    info: 手机管理大师
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.axsizg.dtt.linyaps
+    info: 芯盾智能锁传输工具
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.bmb1688.audit.linyaps
+    info: 帝岚计算机终端保密检查系统
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.channelsoft.sipphone.linyaps
+    info: CPFCcodSipPhone
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.cnezsoft.xuanxuan.linyaps
+    info: 喧喧企业协同聊天
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.cutecomm.broadcast.linyaps
+    info: 智慧帮直播
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.cutecomm.remotedt.linyaps
+    info: 智慧帮远程
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.cutecomm.videoconf.linyaps
+    info: 智慧帮视频会议
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.eastmoney.emapp.linyaps
+    info: 东方财富
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.elex.tscs.linyaps
+    info: 博智计算机终端保密检查系统V2.0
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.eusoft.eudic.linyaps
+    info: 欧路词典
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.founderinternational.cebreader.linyaps
+    info: 方正CEB版式文档阅读器
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.gdca.gdcaclient.linyaps
+    info: GDCA数字证书客户端
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.gdca.trustofdreader.linyaps
+    info: 信鉴易OFD印章阅读器
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.gingo.linyaps
+    info: 金鸽
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.github.desktopnaotu.linyaps
+    info: 桌面版百度脑图
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.gnway.appcloud.linyaps
+    info: 云联信创专版
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.gstarcad.cad.linyaps
+    info: 浩辰CAD 2024
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.gsubo.xoa.linyaps
+    info: 心通达OA精灵
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.hillstonenet.scvpn.linyaps
+    info: Hillstone Secure Connect-远程工具
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.hisense-syxs.hiedu.linyaps
+    info: 海信智学
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.hsl.amis.linyaps
+    info: 电子档案管理系统
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.hst.fsmeeting.linyaps
+    info: 好视通云会议
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.htsec.ehtsec.linyaps
+    info: e海通财
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.huashuoaf.finger.linyaps
+    info: 华硕安防指纹
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.huidu.hdplayer.linyaps
+    info: HDPlayer软件
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.icvp.vwas.linyaps
+    info: 万控一体化集控
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.isoftstone.hwcloudlink.linyaps
+    info: HW CloudLink-视频会议
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.jimi.evimsagent.linyaps
+    info: Evimsagent-系统性能监控
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.joydin.braingame.linyaps
+    info: 智力游戏
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.keymanager.linyaps
+    info: 密信Key管理工具
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.kinggrid.surread.linyaps
+    info: 超阅版式办公套件
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.lightwan.linyaps
+    info: LightWAN
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.meitu.mtxx.linyaps
+    info: 美图秀秀-图片编辑与设计神器
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.microcloudsys.appv.linyaps
+    info: 微云云应用
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.mindlinker.meeting.linyaps
+    info: MindLinker迈聆会议
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.mingdao.officetool.linyaps
+    info: 明道云办公
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.netchina.ndoffice-stable.linyaps
+    info: 网龙Office 2021
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.oa8000.htim.linyaps
+    info: 小天精灵即时通讯软件
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.onbonbx.ledshowsuite.linyaps
+    info: LedShowSuite
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.oneofd.ofdreader.linyaps
+    info: 葫芦OFD阅读器
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.opiping.manager.linyaps
+    info: opiping
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.opiping.nabric.linyaps
+    info: Nabric 一站式团队协作系统
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.oray.hsk.linyaps
+    info: 花生壳网页版
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.ovital.map.linyaps
+    info: 奥维互动地图
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.qljy.qlteacher.linyaps
+    info: 青鹿教室
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.qq.wemeet.linyaps
+    info: 腾讯会议
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.sdguodun.dzonesign.linyaps
+    info: 大众签章
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.sumscope.qeubee.linyaps
+    info: qeubee终端
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.synology.drive.linyaps
+    info: Synology Drive Client
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.szca.msm.uos.linyaps
+    info: 协同签名密码模块
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.szca.signproducttool.linyaps
+    info: 深圳CA签署产品
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.szshenshu.aidemo.linyaps
+    info: 深数科技人脸识别身份核验软件
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.tencent.gamereva.linyaps
+    info: 腾讯先锋云游戏
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.tencent.wechat.linyaps
+    info: 微信
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.todesk.bsos.linyaps
+    info: ToDesk企业SOS
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.vymeet.cloud.meeting.linyaps
+    info: Vymeet 云会议
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.wind.wfc.linyaps
+    info: 万得投顾终端
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.wind.wft.linyaps
+    info: Wind金融终端(机构专用)
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.xunlei.download.linyaps
+    info: 迅雷
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.xylink.linuxclient.linyaps
+    info: 小鱼易连
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.yozosoft.yozo-office.s1.linyaps
+    info: 永中Office2019专业版办公软件V8.0
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.yygongzi.linyaps
+    info: 用友工资条
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.zhixue.zhixuewang.linyaps
+    info: 智学网
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.zjca.zjcakeymanager.linyaps
+    info: ZJCA证书助手
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.zlgpy.capturevideov4.linyaps
+    info: 哲林影像采集系统
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.zwsoft.zw3d2024.linyaps
+    info: 中望3D 2024
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.zwsoft.zwcadm2024.linyaps
+    info: 中望CAD机械版 2024
+    developer: System233
+    developer_id: "20336040"
+  - repo: con.boxuebao.boxuezhiyun.linyaps
+    info: 博学智云
+    developer: System233
+    developer_id: "20336040"
+  - repo: duoyu-browser.linyaps
+    info: 多御安全浏览器
+    developer: System233
+    developer_id: "20336040"
+  - repo: em-va.linyaps
+    info: 集智(VA)应用云平台-客户端
+    developer: System233
+    developer_id: "20336040"
+  - repo: encoo.robot.linyaps
+    info: 云扩RPA机器人
+    developer: System233
+    developer_id: "20336040"
+  - repo: feidao.linyaps
+    info: 飞稻在线课程设计平台
+    developer: System233
+    developer_id: "20336040"
+  - repo: holder.linyaps
+    info: holder
+    developer: System233
+    developer_id: "20336040"
+  - repo: hscore.linyaps
+    info: 山河安全工作空间
+    developer: System233
+    developer_id: "20336040"
+  - repo: huaweicloudmeeting.linyaps
+    info: 华为云会议-视频会议办公软件
+    developer: System233
+    developer_id: "20336040"
+  - repo: iauto.linyaps
+    info: IAuto绘图
+    developer: System233
+    developer_id: "20336040"
+  - repo: insmsg.linyaps
+    info: InsMsg企业即时通信
+    developer: System233
+    developer_id: "20336040"
+  - repo: io.github.msojocs.bilibili.linyaps
+    info: 哔哩哔哩
+    developer: System233
+    developer_id: "20336040"
+  - repo: j2l3x.linyaps
+    info: J2L3x 数字工作空间系统
+    developer: System233
+    developer_id: "20336040"
+  - repo: mcu.linyaps
+    info: PoloMeeting视频会议系统-MCU服务器
+    developer: System233
+    developer_id: "20336040"
+  - repo: net.cnki.cajviewer.linyaps
+    info: CAJViewer全文浏览器
+    developer: System233
+    developer_id: "20336040"
+  - repo: net.cnki.cnkiexpress.linyaps
+    info: 全球学术报告
+    developer: System233
+    developer_id: "20336040"
+  - repo: net.master-pdf.linyaps
+    info: Master PDF 编辑器
+    developer: System233
+    developer_id: "20336040"
+  - repo: net.textseek.linyaps
+    info: TextSeek 文本搜索工具
+    developer: System233
+    developer_id: "20336040"
+  - repo: net.textseek.off.linyaps
+    info: TextSeek (离线版)-文本搜索
+    developer: System233
+    developer_id: "20336040"
+  - repo: net.thunderbird.linyaps
+    info: 雷鸟邮件客户端
+    developer: System233
+    developer_id: "20336040"
+  - repo: net.zhuoaninfo.pdf417.creator.linyaps
+    info: 卓安公文二维条形码生成软件
+    developer: System233
+    developer_id: "20336040"
+  - repo: org.aaai.aireview.linyaps
+    info: 智能阅卷
+    developer: System233
+    developer_id: "20336040"
+  - repo: org.east.upsmart.linyaps
+    info: UPSmart
+    developer: System233
+    developer_id: "20336040"
+  - repo: pdmaner.linyaps
+    info: PDManer 元数建模
+    developer: System233
+    developer_id: "20336040"
+  - repo: photosir.linyaps
+    info: PhotoSir
+    developer: System233
+    developer_id: "20336040"
+  - repo: ppthelper-agent.linyaps
+    info: PPT遥控翻页
+    developer: System233
+    developer_id: "20336040"
+  - repo: smail.community.linyaps
+    info: SMail安全邮件
+    developer: System233
+    developer_id: "20336040"
+  - repo: store.spark-app.redict-dtk5.linyaps
+    info: Redict词典
+    developer: System233
+    developer_id: "20336040"
+  - repo: store.spark-app.wechat-linux-spark.linyaps
+    info: 微信Linux
+    developer: System233
+    developer_id: "20336040"
+  - repo: swt-swcx.linyaps
+    info: 河北省商务诚信
+    developer: System233
+    developer_id: "20336040"
+  - repo: ubx-auxiliary.linyaps
+    info: 统信有往开发工具
+    developer: System233
+    developer_id: "20336040"
+  - repo: uos-youku-app.linyaps
+    info: 优酷视频
+    developer: System233
+    developer_id: "20336040"
+  - repo: vip.evdo.deepin.linyaps
+    info: 医维度
+    developer: System233
+    developer_id: "20336040"
+  - repo: weici-teaching.linyaps
+    info: 维词教学系统
+    developer: System233
+    developer_id: "20336040"
+  - repo: wonderpen.linyaps
+    info: 妙笔
+    developer: System233
+    developer_id: "20336040"
+  - repo: xcshy.linyaps
+    info: 校餐守护云
+    developer: System233
+    developer_id: "20336040"
+  - repo: youzone.linyaps
+    info: 友空间
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.processon.processonclient.linyaps
+    info: ProcessOn流程图
+    developer: System233
+    developer_id: "20336040"
+  - repo: com.processon.processonmind.linyaps
+    info: ProcessOn思维导图
+    developer: System233
+    developer_id: "20336040"
