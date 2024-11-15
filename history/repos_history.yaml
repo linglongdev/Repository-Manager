@@ -1771,3 +1771,7 @@ repos:
     info: ProcessOn思维导图
     developer: System233
     developer_id: "20336040"
+  - repo: com.xmly.deepin
+    info: wine应用
+    developer: PeakVue
+    developer_id: "129737754"
