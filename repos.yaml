@@ -11,6 +11,6 @@ repos:
 -   repo: com.poki.roller-coaster-builder-2
     info: Roller Coaster Builder 2
     develop: Jimmy385898
-    repo: com.poki.look-your-loot
+-   repo: com.poki.look-your-loot
     info: Look  Your Loot!
     develop: Jimmy521125
