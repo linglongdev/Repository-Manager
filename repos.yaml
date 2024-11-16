@@ -1,2 +1,22 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+ - repo: com.poki.fancy-pants-3
+   info: Fancy Pants 3
+   developer: zhuyoupaouegao
+ - repo: com.poki.cat-gunner-super-zombie-shoot
+   info: Cat Gunner: Super Zombie Shoot
+   developer: zhuyoupaouegao
+ - repo: com.poki.eugenes-life
+   info: Eugene's Life
+   developer: zhuyoupaouegao
+ - repo: com.poki.daily-dadish
+   info: Daily Dadish
+   developer: zhuyoupaouegao
+ - repo: com.poki.forgotten-hill-the-third-axis
+   info: Forgotten Hill: The Third Axis
+   developer: zhuyoupaouegao
+
+
+
+
+   
