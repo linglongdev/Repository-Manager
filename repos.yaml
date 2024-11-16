@@ -2,3 +2,15 @@ repos:
 - repo: com.poki.happy-wheels
   info: Happy Wheels
   developer: zzylanmengqingchuan
+- repo: com.poki.dadish-3
+  info: Dadish 3
+  developer: zzylanmengqingchuan
+- repo: com.poki.silly-sky
+  info: Silly Sky
+  developer: zzylanmengqingchuan
+- repo: com.poki.infiltrating-the-airship
+  info: Infiltrating the Airship
+  developer: zzylanmengqingchuan
+- repo: com.poki.funny-travelling-airport
+  info: Funny Travelling Airport
+  developer: zzylanmengqingchuan
