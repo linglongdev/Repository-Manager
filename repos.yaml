@@ -1,16 +1,16 @@
 repos: 
-  - repo: com.poki.there-is-no-game 
-   info: There Is No Game 
-   developer: qiansiying-1 
-  - repo: com.poki.build-land 
-   info: Build Land 
-   developer: qiansiying-1 
-  - repo: com.poki.the-final-earth-2 
-   info: The Final Earth 2 
-   developer: qiansiying-1 
-  - repo: com.poki.goober-world 
-   info: Goober World 
-   developer: qiansiying-1 
-  - repo: com.poki.adventure-cube 
-   info: Adventure Cube 
-   developer: qiansiying-1 
+- repo: com.poki.there-is-no-game 
+  info: There Is No Game 
+  developer: qiansiying-1 
+- repo: com.poki.build-land 
+  info: Build Land 
+  developer: qiansiying-1 
+- repo: com.poki.the-final-earth-2 
+  info: The Final Earth 2 
+  developer: qiansiying-1 
+- repo: com.poki.goober-world 
+ info: Goober World 
+  developer: qiansiying-1 
+- repo: com.poki.adventure-cube 
+  info: Adventure Cube 
+  developer: qiansiying-1 
