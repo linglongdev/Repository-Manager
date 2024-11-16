@@ -1,17 +1,17 @@
 
 repos:
-- repos: com.poki.portrait-of-an-obsession
+- repo: com.poki.portrait-of-an-obsession
   info: Portrait of an Obsession
   developer: chenguanxiii
-- repos: com.poki.little-alchemy-2
+- repo: com.poki.little-alchemy-2
   info: Little Alchemy 2
   developer: chenguanxiii
-- repos: com.poki.pixel-realms
+- repo: com.poki.pixel-realms
   info: Pixel Realms
   developer: chenguanxiii
-- repos: com.poki.moon-waltz
+- repo: com.poki.moon-waltz
   info: Moon Waltz
   developer: chenguanxiii
-- repos: com.poki.duck-life
+- repo: com.poki.duck-life
   info: Duck Life
   developer: chenguanxiii
