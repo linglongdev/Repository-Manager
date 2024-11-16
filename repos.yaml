@@ -1,18 +1,18 @@
 
 repos:
--repo: com.poki.eggys-big-adventure
+- repo: com.poki.eggys-big-adventure
  info: Eggys Big Adventure
  developer: SGH10
- -repo: com.poki.forgotten-hill-the-wardrobe-3
+- repo: com.poki.forgotten-hill-the-wardrobe-3
  info: Forgotten Hill: The Wardrobe 3
  developer: SGH10
- -repo: com.poki.how-to-loot-pin-pull
+- repo: com.poki.how-to-loot-pin-pull
  info: How to loot - Pin pull
  developer: SGH10
- -repo: com.poki.la-petite-avril
+- repo: com.poki.la-petite-avril
  info: La Petite Avril
  developer: SGH10
- -repo: com.poki.become-an-ear-doctor
+- repo: com.poki.become-an-ear-doctor
  info: Become An Ear Doctor
  developer: SGH10
 
