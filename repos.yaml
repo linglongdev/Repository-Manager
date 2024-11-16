@@ -1,2 +1,14 @@
-tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
-repos:
+tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml++_- repo: com.poki.scary-mazero repo:
+repo:
++ - repo: com.poki.scary-maze
++   info: Scary Maze
++   developer: yxt117
++ - repo: com.poki.rise-of-pico
++   info: Rise of Pico
++   developer: yxt117
++ - repo: com.poki.ducklife-3
++   info: Duck Life 3
++   developer: yxt117
++ - repo: com.poki.conveyor-deli
++   info: Conveyor Deli
++   developer: yxt117
