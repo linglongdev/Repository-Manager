@@ -1,2 +1,16 @@
-tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
-repos:
+repos: 
+- repo: com.poki.ducklings-io
+  info: Ducklings.io
+  developer: tayh
+- repo: com.poki.cats-drop
+  info: Cats Drop
+  developer: tayh
+- repo: com.poki.a-pretty-odd-bunny-roast-it
+  info: A Pretty Odd Bunny: Roast it!
+  developer: tayh
+- repo: com.poki.cell-to-singularity-mesozoic-valley
+  info:Cell To Singularity: Mesozoic Valley
+  developer: tayh
+- repo: com.poki.bunny-market
+  info: Bunny Market
+  developer: tayh
