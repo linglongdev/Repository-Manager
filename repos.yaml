@@ -2,16 +2,16 @@ tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历�
 repos:
 repo: com.poki.football-penalty-champions
 info: Football Penalty Champions
-develoger: TouHouQing
+developer: TouHouQing
 repo: com.poki.footyzag  
 info: FootyZag
-develoger: TouHouQing
+developer: TouHouQing
 repo:  com.poki.flicking-soccer
 info: Flicking Soccer
-develoger: TouHouQing
+developer: TouHouQing
 repo:  com.poki.street-dribble
 info: Street Dribble
-develoger: TouHouQing
+developer: TouHouQing
 repo:  com.poki.basket-champs
 info: Basket Champs
-develoger: TouHouQing
+developer: TouHouQing
