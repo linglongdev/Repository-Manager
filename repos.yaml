@@ -5,3 +5,12 @@ repos:
 -   repo: com.poki.we-become-what-we-behold
     info: We Become What We Behold
     developer: Jimmy385898
+-   repo: com.poki.the-left-behind
+    info: The Left Behind
+    develop: Jimmy385898
+-   repo: com.poki.roller-coaster-builder-2
+    info: Roller Coaster Builder 2
+    develop: Jimmy385898
+    repo: com.poki.look-your-loot
+    info: Look  Your Loot!
+    develop: Jimmy521125
