@@ -1,17 +1,16 @@
-tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-repo: com.poki.football-penalty-champions
-info: Football Penalty Champions
-developer: TouHouQing
-repo: com.poki.footyzag  
-info: FootyZag
-developer: TouHouQing
-repo:  com.poki.flicking-soccer
-info: Flicking Soccer
-developer: TouHouQing
-repo:  com.poki.street-dribble
-info: Street Dribble
-developer: TouHouQing
-repo:  com.poki.basket-champs
-info: Basket Champs
-developer: TouHouQing
+- repo: com.poki.football-penalty-champions
+  info: Football Penalty Champions
+  developer: TouHouQing
+- repo: com.poki.footyzag  
+  info: FootyZag
+  developer: TouHouQing
+- repo:  com.poki.flicking-soccer
+  info: Flicking Soccer
+  developer: TouHouQing
+- repo:  com.poki.street-dribble
+  info: Street Dribble
+  developer: TouHouQing
+- repo:  com.poki.basket-champs
+  info: Basket Champs
+  developer: TouHouQing
