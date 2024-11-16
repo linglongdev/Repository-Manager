@@ -1,5 +1,16 @@
-repos: com.poki.icycle
-Icycle
-https://poki.com/zh/g/icycle
-https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=256,height=256,fit=cover,f=auto/20852b0ba79fe171465961541ebea4f5.png
-Damp Gnat Games
+repos: 
+- repo: com.poki.icycle
+  info: Icycle
+  developer: Fate0575
+- repo: com.poki.pirate-island
+  info: Pirate Island
+  developer: Fate0575
+- repo: com.poki.yokai-dungeon
+  info: Yokai Dungeon
+  developer: Fate0575
+- repo: com.poki.the-secret-of-tetrapylae
+  info: The Secret of Tetrapylae
+  developer: Fate0575
+- repo: com.poki.super-oscar
+  info: Super Oscar
+  developer: Fate0575
