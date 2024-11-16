@@ -1,2 +1,17 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+- repo: com.poki.dumb-ways-to-die-3-world-tour
+  info: Dumb Ways To Die 3: World Tour
+  developer: CZC-czc11
+- repo: com.poki.super-shopper
+  info: Super Shopper
+  developer: CZC-czc11
+- repo: com.poki.pathing
+  info: Pathing
+  developer: CZC-czc11
+- repo: com.poki.snake-attack
+  info: Snake Attack
+  developer: CZC-
+- repo: com.poki.minimissions
+  info: MiniMissions
+  developer: CZC-czc11
