@@ -1,2 +1,17 @@
-tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+-repos: com.poki.where-is-my-cat
+infe: Where is My Cat?
+developer: naite-101
+-repos: com.poki.funny-kitty-care
+infe: Funny Kitty Care
+developer: naite-101
+-repos: com.poki.tail-swing
+infe: Tail Swing
+developer: naite-101
+-repos: com.poki.yarn-untangle
+infe: Yarn Untangle
+developer: naite-101
+-repos: com.poki.chicky-farm
+infe: Chicky Farm
+developer: naite-101
+
