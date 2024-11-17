@@ -1,17 +1,22 @@
 repos:
 - repos: com.poki.where-is-my-cat
+- repo: com.poki.where-is-my-cat
   info: Where is My Cat?
   developer: naite-101
 - repos: com.poki.funny-kitty-care
+- repo: com.poki.funny-kitty-care
   info: Funny Kitty Care
   developer: naite-101
 - repos: com.poki.tail-swing
+- repo: com.poki.tail-swing
   info: Tail Swing
   developer: naite-101
 - repos: com.poki.yarn-untangle
+- repo: com.poki.yarn-untangle
   info: Yarn Untangle
-  developer: naite-101
+  developer:  naite-101
 - repos: com.poki.chicky-farm
+- repo: com.poki.chicky-farm
   info: Chicky Farm
   developer: naite-101
 
