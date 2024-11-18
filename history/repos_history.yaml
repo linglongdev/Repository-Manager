@@ -1803,3 +1803,23 @@ repos:
     info: Become a Puppy Groomer
     developer: ziggy1030
     developer_id: "39146681"
+  - repo: com.poki.football-penalty-champions
+    info: Football Penalty Champions
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.footyzag
+    info: FootyZag
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.flicking-soccer
+    info: Flicking Soccer
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.street-dribble
+    info: Street Dribble
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.basket-champs
+    info: Basket Champs
+    developer: TouHouQing
+    developer_id: "75128683"
