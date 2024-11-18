@@ -1,14 +1,2 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-- repo: io.github.super-fowlst-2
-  info: Super Fowlst 2
-  developer: JackLau1222
-- repo: io.github.survival-island
-  info: Survival Island
-  developer: JackLau1222
-- repo: io.github.gold-digger-frvr
-  info: Gold Digger FRVR
-  developer: JackLau1222
-- repo: io.github.fantasy-sandbox
-  info: Fantasy Sandbox
-  developer: JackLau1222
