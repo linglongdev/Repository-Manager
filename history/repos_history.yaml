@@ -1827,3 +1827,23 @@ repos:
     info: Where is My Cat?
     developer: naite-101
     developer_id: "188606755"
+  - repo: com.poki.rescue-the-fish
+    info: Rescue the Fish
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.we-become-what-we-behold
+    info: We Become What We Behold
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.the-left-behind
+    info: The Left Behind
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.roller-coaster-builder-2
+    info: Roller Coaster Builder 2
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.look-your-loot
+    info: Look Your Loot!
+    developer: Jimmy385898
+    developer_id: "157217941"
