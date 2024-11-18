@@ -1823,3 +1823,7 @@ repos:
     info: Basket Champs
     developer: TouHouQing
     developer_id: "75128683"
+  - repo: com.poki.where-is-my-cat
+    info: Where is My Cat?
+    developer: naite-101
+    developer_id: "188606755"
