@@ -1775,3 +1775,7 @@ repos:
     info: wine应用
     developer: PeakVue
     developer_id: "129737754"
+  - repo: com.poki.apple-knight-golf
+    info: Apple Knight Golf
+    developer: JackLau1222
+    developer_id: "131463945"
