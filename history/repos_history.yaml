@@ -1779,3 +1779,19 @@ repos:
     info: Apple Knight Golf
     developer: JackLau1222
     developer_id: "131463945"
+  - repo: io.github.super-fowlst-2
+    info: Super Fowlst 2
+    developer: JackLau1222
+    developer_id: "131463945"
+  - repo: io.github.survival-island
+    info: Survival Island
+    developer: JackLau1222
+    developer_id: "131463945"
+  - repo: io.github.gold-digger-frvr
+    info: Gold Digger FRVR
+    developer: JackLau1222
+    developer_id: "131463945"
+  - repo: io.github.fantasy-sandbox
+    info: Fantasy Sandbox
+    developer: JackLau1222
+    developer_id: "131463945"
