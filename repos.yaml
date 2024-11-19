@@ -1,2 +1,13 @@
-tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+- repo: com.poki.puffy-cat
+  info: Puffy Cat
+  developer: KAKAOYS
+- repo: com.poki.funny-kitty-dressup
+  info: Funny Kitty Dressup
+  developer: KAKAOYS
+- repo: com.poki.funny-daycare
+  info: Funny Daycare
+  developer: KAKAOYS
+- repo: com.poki.growmi
+  info: Growmi
+  developer: KAKAOYS
