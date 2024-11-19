@@ -1,16 +1,2 @@
-repos: 
-- repo: com.poki.icycle
-  info: Icycle
-  developer: Fate0575
-- repo: com.poki.pirate-island
-  info: Pirate Island
-  developer: Fate0575
-- repo: com.poki.yokai-dungeon
-  info: Yokai Dungeon
-  developer: Fate0575
-- repo: com.poki.the-secret-of-tetrapylae
-  info: The Secret of Tetrapylae
-  developer: Fate0575
-- repo: com.poki.super-oscar
-  info: Super Oscar
-  developer: Fate0575
+tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
+repos:
