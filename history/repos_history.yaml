@@ -1847,3 +1847,23 @@ repos:
     info: Look Your Loot!
     developer: Jimmy385898
     developer_id: "157217941"
+  - repo: com.poki.icycle
+    info: Icycle
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.pirate-island
+    info: Pirate Island
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.yokai-dungeon
+    info: Yokai Dungeon
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.the-secret-of-tetrapylae
+    info: The Secret of Tetrapylae
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.super-oscar
+    info: Super Oscar
+    developer: Fate0575
+    developer_id: "152993587"
