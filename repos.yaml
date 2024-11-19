@@ -1,2 +1,16 @@
-tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+- repo: com.poki.ducklings-io
+  info: Ducklings.io
+  developer: tayh-on
+- repo: com.poki.cats-drop
+  info: Cats Drop
+  developer: tayh-on
+- repo: com.poki.snake-solver
+  info: Snake Solver
+  developer: tayh-on
+- repo: com.poki.capyloop-stones
+  info: Capyloop Stones
+  developer: tayh-on
+- repo: com.poki.bunny-market
+  info: Bunny Market
+  developer: tayh-on
