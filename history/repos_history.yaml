@@ -1867,3 +1867,23 @@ repos:
     info: Super Oscar
     developer: Fate0575
     developer_id: "152993587"
+  - repo: com.poki.raft-wars-multiplayer
+    info: Raft Wars Multiplayer
+    developer: WanAnUncommon
+    developer_id: "136557815"
+  - repo: com.poki.rodeo-stampede-savannah
+    info: Rodeo Stampede
+    developer: WanAnUncommon
+    developer_id: "136557815"
+  - repo: com.poki.hoppenhelm
+    info: Hoppenhelm
+    developer: WanAnUncommon
+    developer_id: "136557815"
+  - repo: com.poki.slime-laboratory-3
+    info: Slime Laboratory 3
+    developer: WanAnUncommon
+    developer_id: "136557815"
+  - repo: com.poki.war-of-caribbean-pirates
+    info: War of Caribbean Pirates
+    developer: WanAnUncommon
+    developer_id: "136557815"
