@@ -1,2 +1,17 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+- repo: com.poki.im-borr
+  info: I'm Borr
+  developer: Dazzling888
+- repo: com.poki.soldier-legend
+  info: Soldier Legend
+  developer:Dazzling888
+- repo: com.poki.block-toggle
+  info: Block Toggle
+  developer: Dazzling888
+- repo: com.poki.papa-louie-when-pizzas-attack
+  info: Papa Louie: When Pizzas Attack
+  developer: Dazzling888
+  - repo: com.poki.conq-io
+  info: Conq.io
+  developer: Dazzling888
