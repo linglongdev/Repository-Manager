@@ -1,2 +1,16 @@
-tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+- repo: com.poki.dadish
+  info: Dadish
+  developer: lz-22
+- repo: com.poki.skywire
+  info: Skywire
+  developer: lz-22
+- repo: com.poki.senya-and-oscar-2
+  info: Senya and Oscar 2
+  developer: lz-22
+- repo: com.poki.mine-cartoon-cube-world
+  info: Mine Cartoon: Cube World
+  developer: lz-22
+- repo: com.poki.slime-pizza
+  info: Slime Pizza
+  developer: lz-22
