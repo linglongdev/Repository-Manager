@@ -1775,3 +1775,115 @@ repos:
     info: wine应用
     developer: PeakVue
     developer_id: "129737754"
+  - repo: com.poki.apple-knight-golf
+    info: Apple Knight Golf
+    developer: JackLau1222
+    developer_id: "131463945"
+  - repo: io.github.super-fowlst-2
+    info: Super Fowlst 2
+    developer: JackLau1222
+    developer_id: "131463945"
+  - repo: io.github.survival-island
+    info: Survival Island
+    developer: JackLau1222
+    developer_id: "131463945"
+  - repo: io.github.gold-digger-frvr
+    info: Gold Digger FRVR
+    developer: JackLau1222
+    developer_id: "131463945"
+  - repo: io.github.fantasy-sandbox
+    info: Fantasy Sandbox
+    developer: JackLau1222
+    developer_id: "131463945"
+  - repo: com.poki.become-a-puppy-groomer
+    info: Become a Puppy Groomer
+    developer: ziggy1030
+    developer_id: "39146681"
+  - repo: com.poki.beecoins-inc
+    info: Become a Puppy Groomer
+    developer: ziggy1030
+    developer_id: "39146681"
+  - repo: com.poki.football-penalty-champions
+    info: Football Penalty Champions
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.footyzag
+    info: FootyZag
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.flicking-soccer
+    info: Flicking Soccer
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.street-dribble
+    info: Street Dribble
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.basket-champs
+    info: Basket Champs
+    developer: TouHouQing
+    developer_id: "75128683"
+  - repo: com.poki.where-is-my-cat
+    info: Where is My Cat?
+    developer: naite-101
+    developer_id: "188606755"
+  - repo: com.poki.rescue-the-fish
+    info: Rescue the Fish
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.we-become-what-we-behold
+    info: We Become What We Behold
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.the-left-behind
+    info: The Left Behind
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.roller-coaster-builder-2
+    info: Roller Coaster Builder 2
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.look-your-loot
+    info: Look Your Loot!
+    developer: Jimmy385898
+    developer_id: "157217941"
+  - repo: com.poki.icycle
+    info: Icycle
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.pirate-island
+    info: Pirate Island
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.yokai-dungeon
+    info: Yokai Dungeon
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.the-secret-of-tetrapylae
+    info: The Secret of Tetrapylae
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.super-oscar
+    info: Super Oscar
+    developer: Fate0575
+    developer_id: "152993587"
+  - repo: com.poki.raft-wars-multiplayer
+    info: Raft Wars Multiplayer
+    developer: WanAnUncommon
+    developer_id: "136557815"
+  - repo: com.poki.rodeo-stampede-savannah
+    info: Rodeo Stampede
+    developer: WanAnUncommon
+    developer_id: "136557815"
+  - repo: com.poki.hoppenhelm
+    info: Hoppenhelm
+    developer: WanAnUncommon
+    developer_id: "136557815"
+  - repo: com.poki.slime-laboratory-3
+    info: Slime Laboratory 3
+    developer: WanAnUncommon
+    developer_id: "136557815"
+  - repo: com.poki.war-of-caribbean-pirates
+    info: War of Caribbean Pirates
+    developer: WanAnUncommon
+    developer_id: "136557815"
