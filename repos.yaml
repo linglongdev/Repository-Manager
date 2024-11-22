@@ -1,16 +1,16 @@
 repos:
-- repos: com.poki.cooking-fast
+- repo: com.poki.cooking-fast
   info: Cooking Fast
   developer: Chcat-Ch
-- repos: com.poki.mimelet
+- repo: com.poki.mimelet
   info: Mimelet
   developer: Chcat-Ch
-- repos: com.poki.stealing-the-diamond
+- repo: com.poki.stealing-the-diamond
   info: Stealing the Diamond
   developer: Chcat-Ch
-- repos: com.poki.slime-laboratory-2
+- repo: com.poki.slime-laboratory-2
   info: Slime Laboratory 2
   developer: Chcat-Ch
-- repos: com.poki.dana-relics-for-sale
+- repo: com.poki.dana-relics-for-sale
   info: Dana: Relics for Sale
   developer: Chcat-Ch
