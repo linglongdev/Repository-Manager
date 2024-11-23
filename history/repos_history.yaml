@@ -1887,3 +1887,23 @@ repos:
     info: War of Caribbean Pirates
     developer: WanAnUncommon
     developer_id: "136557815"
+  - repo: com.poki.cooking-fast
+    info: Cooking Fast
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.mimelet
+    info: Mimelet
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.stealing-the-diamond
+    info: Stealing the Diamond
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.slime-laboratory-2
+    info: Slime Laboratory 2
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.dana-relics-for-sale
+    info: Dana:Relics for Sale
+    developer: Chcat-Ch
+    developer_id: "148210330"
