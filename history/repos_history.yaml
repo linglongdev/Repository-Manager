@@ -1907,3 +1907,23 @@ repos:
     info: Dana:Relics for Sale
     developer: Chcat-Ch
     developer_id: "148210330"
+  - repo: com.poki.knight-brawl
+    info: Knight Brawl
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: com.poki.chopstick-cooking
+    info: Chopstick Cooking
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: com.poki.dungeons-and-blades
+    info: Dungeons & Blades
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: com.poki.cave-chaos-2
+    info: Cave Chaos 2
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: com.poki.super-planet-fun-time
+    info: Super Planet Fun Time
+    developer: isPainting
+    developer_id: "112247282"
