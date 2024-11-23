@@ -1,16 +1,2 @@
+tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-  - repo: com.poki.knight-brawl
-    info: Knight Brawl
-    developer: isPainting
-  - repo: com.poki.chopstick-cooking
-    info: Chopstick Cooking
-    developer: isPainting
-  - repo: com.poki.dungeons-and-blades
-    info: Dungeons & Blades
-    developer: isPainting
-  - repo: com.poki.cave-chaos-2
-    info: Cave Chaos 2
-    developer: isPainting
-  - repo: com.poki.super-planet-fun-time
-    info: Super Planet Fun Time
-    developer: isPainting
