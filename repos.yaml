@@ -1,16 +1,2 @@
+tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-- repo: com.poki.sharkio
-  info: Shark.io
-  developer: bexhyh
-- repo: com.poki.find-a-cat
-  info: Find a cat
-  developer: bexhyh
-- repo: com.poki.cow-bay
-  info: Cow Bay
-  developer: bexhyh
-- repo: com.poki.fish-drop
-  info: Fish Drop
-  developer: bexhyh
-- repo: com.poki.elixpur-idle
-  info: Elixpur Idle
-  developer: bexhyh
