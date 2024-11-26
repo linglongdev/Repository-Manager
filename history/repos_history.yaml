@@ -1931,3 +1931,23 @@ repos:
     info: qt demo
     developer: kamiyadm
     developer_id: "61131058"
+  - repo: com.poki.fancy-pants-3
+    info: Fancy Pants 3
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.chopstick-cooking
+    info: Chopstick Cooking
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.eugenes-life
+    info: Eugene's Life
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.daily-dadish
+    info: Daily Dadish
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.towntopia
+    info: https://poki.com/zh/g/towntopia
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
