@@ -1,16 +1,2 @@
+tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-- repo: com.poki.robox
-  info: Robox
-  developer: RichardTamarisk
-- repo: com.poki.mophead-dash
-  info: Mophead Dash
-  developer: RichardTamarisk
-- repo: com.poki.dual-cat-max
-  info: Dual Cat Max
-  developer: RichardTamarisk
-- repo: com.poki.luna-and-the-magic-maze
-  info: Luna and the Magic Maze
-  developer: RichardTamarisk
-- repo: com.poki.odd-bot-out
-  info: Odd Bot Out
-  developer: RichardTamarisk
