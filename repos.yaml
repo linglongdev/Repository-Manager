@@ -1,21 +1,2 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-  - repo: com.poki.fancy-pants-3
-    info: Fancy Pants 3
-    developer: zhuyoupaoxuegao
-  - repo: com.poki.chopstick-cooking
-    info: Chopstick Cooking
-    developer: zhuyoupaoxuegao
-  - repo: com.poki.eugenes-life
-    info: Eugene's Life
-    developer: zhuyoupaoxuegao
-  - repo: com.poki.daily-dadish
-    info: Daily Dadish
-    developer: zhuyoupaoxuegao
-  - repo: com.poki.towntopia
-    info: https://poki.com/zh/g/towntopia
-    developer: zhuyoupaoxuegao
-
-
-
-   
