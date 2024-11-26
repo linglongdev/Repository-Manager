@@ -1971,3 +1971,23 @@ repos:
     info: Odd Bot Out
     developer: RichardTamarisk
     developer_id: "128676569"
+  - repo: com.poki.sharkio
+    info: Shark.io
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.find-a-cat
+    info: Find a cat
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.cow-bay
+    info: Cow Bay
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.fish-drop
+    info: Fish Drop
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.elixpur-idle
+    info: Elixpur Idle
+    developer: bexhyh
+    developer_id: "129663370"
