@@ -1951,3 +1951,23 @@ repos:
     info: https://poki.com/zh/g/towntopia
     developer: zhuyoupaoxuegao
     developer_id: "184751276"
+  - repo: com.poki.robox
+    info: Robox
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.mophead-dash
+    info: Mophead Dash
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.dual-cat-max
+    info: Dual Cat Max
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.luna-and-the-magic-maze
+    info: Luna and the Magic Maze
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.odd-bot-out
+    info: Odd Bot Out
+    developer: RichardTamarisk
+    developer_id: "128676569"
