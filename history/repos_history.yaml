@@ -2039,3 +2039,7 @@ repos:
     info: Shape Fold Animals
     developer: sstzzy
     developer_id: "188665772"
+  - repo: com.poki.there-is-no-game
+    info: There Is No Game
+    developer: qiansiying-1
+    developer_id: "188639018"
