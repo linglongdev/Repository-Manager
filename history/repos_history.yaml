@@ -2035,3 +2035,7 @@ repos:
     info: Kiwi Clicker
     developer: zzz798-a
     developer_id: "188648402"
+  - repo: com.poki.shape-fold-animals
+    info: Shape Fold Animals
+    developer: sstzzy
+    developer_id: "188665772"
