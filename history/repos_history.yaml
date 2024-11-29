@@ -2011,3 +2011,23 @@ repos:
     info: Duck Life
     developer: chenguanxiii
     developer_id: "185206591"
+  - repo: com.poki.happy-wheels
+    info: Happy Wheels
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.dadish-3
+    info: Dadish 3
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.silly-sky
+    info: Silly Sky
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.infiltrating-the-airship
+    info: Infiltrating the Airship
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.funny-travelling-airport
+    info: Funny Travelling Airport
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
