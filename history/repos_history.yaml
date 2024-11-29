@@ -1887,3 +1887,179 @@ repos:
     info: War of Caribbean Pirates
     developer: WanAnUncommon
     developer_id: "136557815"
+  - repo: com.poki.cooking-fast
+    info: Cooking Fast
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.mimelet
+    info: Mimelet
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.stealing-the-diamond
+    info: Stealing the Diamond
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.slime-laboratory-2
+    info: Slime Laboratory 2
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.dana-relics-for-sale
+    info: Dana:Relics for Sale
+    developer: Chcat-Ch
+    developer_id: "148210330"
+  - repo: com.poki.knight-brawl
+    info: Knight Brawl
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: com.poki.chopstick-cooking
+    info: Chopstick Cooking
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: com.poki.dungeons-and-blades
+    info: Dungeons & Blades
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: com.poki.cave-chaos-2
+    info: Cave Chaos 2
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: com.poki.super-planet-fun-time
+    info: Super Planet Fun Time
+    developer: isPainting
+    developer_id: "112247282"
+  - repo: org.deepin.demo
+    info: qt demo
+    developer: kamiyadm
+    developer_id: "61131058"
+  - repo: com.poki.fancy-pants-3
+    info: Fancy Pants 3
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.chopstick-cooking
+    info: Chopstick Cooking
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.eugenes-life
+    info: Eugene's Life
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.daily-dadish
+    info: Daily Dadish
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.towntopia
+    info: https://poki.com/zh/g/towntopia
+    developer: zhuyoupaoxuegao
+    developer_id: "184751276"
+  - repo: com.poki.robox
+    info: Robox
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.mophead-dash
+    info: Mophead Dash
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.dual-cat-max
+    info: Dual Cat Max
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.luna-and-the-magic-maze
+    info: Luna and the Magic Maze
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.odd-bot-out
+    info: Odd Bot Out
+    developer: RichardTamarisk
+    developer_id: "128676569"
+  - repo: com.poki.sharkio
+    info: Shark.io
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.find-a-cat
+    info: Find a cat
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.cow-bay
+    info: Cow Bay
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.fish-drop
+    info: Fish Drop
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.elixpur-idle
+    info: Elixpur Idle
+    developer: bexhyh
+    developer_id: "129663370"
+  - repo: com.poki.portrait-of-an-obsession
+    info: Portrait of an Obsession
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.little-alchemy-2
+    info: Little Alchemy 2
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.pixel-realms
+    info: Pixel Realms
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.moon-waltz
+    info: Moon Waltz
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.duck-life
+    info: Duck Life
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.happy-wheels
+    info: Happy Wheels
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.dadish-3
+    info: Dadish 3
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.silly-sky
+    info: Silly Sky
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.infiltrating-the-airship
+    info: Infiltrating the Airship
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.funny-travelling-airport
+    info: Funny Travelling Airport
+    developer: zzylanmengqingchuan
+    developer_id: "184031073"
+  - repo: com.poki.kiwi-clicker
+    info: Kiwi Clicker
+    developer: zzz798-a
+    developer_id: "188648402"
+  - repo: com.poki.shape-fold-animals
+    info: Shape Fold Animals
+    developer: sstzzy
+    developer_id: "188665772"
+  - repo: com.poki.there-is-no-game
+    info: There Is No Game
+    developer: qiansiying-1
+    developer_id: "188639018"
+  - repo: com.poki.ducklings-io
+    info: Ducklings.io
+    developer: tayh-on
+    developer_id: "188646273"
+  - repo: com.poki.cats-drop
+    info: Cats Drop
+    developer: tayh-on
+    developer_id: "188646273"
+  - repo: com.poki.snake-solver
+    info: Snake Solver
+    developer: tayh-on
+    developer_id: "188646273"
+  - repo: com.poki.capyloop-stones
+    info: Capyloop Stones
+    developer: tayh-on
+    developer_id: "188646273"
+  - repo: com.poki.bunny-market
+    info: Bunny Market
+    developer: tayh-on
+    developer_id: "188646273"
