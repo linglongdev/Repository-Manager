@@ -1,17 +1,2 @@
-
+tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-- repo: com.poki.portrait-of-an-obsession
-  info: Portrait of an Obsession
-  developer: chenguanxiii
-- repo: com.poki.little-alchemy-2
-  info: Little Alchemy 2
-  developer: chenguanxiii
-- repo: com.poki.pixel-realms
-  info: Pixel Realms
-  developer: chenguanxiii
-- repo: com.poki.moon-waltz
-  info: Moon Waltz
-  developer: chenguanxiii
-- repo: com.poki.duck-life
-  info: Duck Life
-  developer: chenguanxiii
