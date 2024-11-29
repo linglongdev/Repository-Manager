@@ -1991,3 +1991,23 @@ repos:
     info: Elixpur Idle
     developer: bexhyh
     developer_id: "129663370"
+  - repo: com.poki.portrait-of-an-obsession
+    info: Portrait of an Obsession
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.little-alchemy-2
+    info: Little Alchemy 2
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.pixel-realms
+    info: Pixel Realms
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.moon-waltz
+    info: Moon Waltz
+    developer: chenguanxiii
+    developer_id: "185206591"
+  - repo: com.poki.duck-life
+    info: Duck Life
+    developer: chenguanxiii
+    developer_id: "185206591"
