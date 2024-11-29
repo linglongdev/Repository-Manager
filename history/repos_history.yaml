@@ -2063,3 +2063,19 @@ repos:
     info: Bunny Market
     developer: tayh-on
     developer_id: "188646273"
+  - repo: com.poki.puffy-cat
+    info: Puffy Cat
+    developer: KAKAOYS
+    developer_id: "181993318"
+  - repo: com.poki.funny-kitty-dressup
+    info: Funny Kitty Dressup
+    developer: KAKAOYS
+    developer_id: "181993318"
+  - repo: com.poki.funny-daycare
+    info: Funny Daycare
+    developer: KAKAOYS
+    developer_id: "181993318"
+  - repo: com.poki.growmi
+    info: Growmi
+    developer: KAKAOYS
+    developer_id: "181993318"
