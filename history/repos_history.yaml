@@ -2079,3 +2079,7 @@ repos:
     info: Growmi
     developer: KAKAOYS
     developer_id: "181993318"
+  - repo: org.scilab.www
+    info: 科学计算软件
+    developer: guanzi008
+    developer_id: "20619190"
