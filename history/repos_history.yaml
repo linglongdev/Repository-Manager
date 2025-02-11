@@ -2083,3 +2083,7 @@ repos:
     info: 科学计算软件
     developer: guanzi008
     developer_id: "20619190"
+  - repo: org.mozilla.firefox-nal.linyaps
+    info: 火狐浏览器国际版
+    developer: ice909
+    developer_id: "59855569"
