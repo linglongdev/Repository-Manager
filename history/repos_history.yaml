@@ -2087,3 +2087,7 @@ repos:
     info: 火狐浏览器国际版
     developer: ice909
     developer_id: "59855569"
+  - repo: io.github.dmarked
+    info: markdown editor based on dtk
+    developer: wineee
+    developer_id: "22803888"
