@@ -2091,3 +2091,7 @@ repos:
     info: markdown editor based on dtk
     developer: wineee
     developer_id: "22803888"
+  - repo: com.jianguoyun.nutstore
+    info: 坚果云。任何设备，随时随地实现文件共享
+    developer: myml
+    developer_id: "13045857"
