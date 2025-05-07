@@ -2095,3 +2095,7 @@ repos:
     info: 坚果云。任何设备，随时随地实现文件共享
     developer: myml
     developer_id: "13045857"
+  - repo: io.github.deltachat-desktop.linyaps
+    info: 基于电子邮件的即时通讯软件
+    developer: ice909
+    developer_id: "59855569"
