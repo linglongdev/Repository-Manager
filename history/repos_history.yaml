@@ -2099,3 +2099,7 @@ repos:
     info: 基于电子邮件的即时通讯软件
     developer: ice909
     developer_id: "59855569"
+  - repo: cn.org.linyaps.preloader
+    info: A preloader for accelerating application launching speed
+    developer: ComixHe
+    developer_id: "54773474"
