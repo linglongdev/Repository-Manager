@@ -336,18 +336,18 @@ func createRepo(client *github.Client, github_org, github_repo, webhook_url, web
 		return fmt.Errorf("create readme: %w", err)
 	}
 	// Wait for the readme to be created
-	time.Sleep(time.Second)
-	_, _, err = client.Repositories.CreateHook(ctx, github_org, github_repo, &github.Hook{
-		Name: github.String("web"),
-		Config: &github.HookConfig{
-			URL:         github.String(webhook_url),
-			ContentType: github.String("json"),
-			Secret:      github.String(webhook_secret),
-		},
-		Events: []string{"push", "pull_request"},
-	})
-	if err != nil {
-		return fmt.Errorf("create hook: %w", err)
-	}
+	// time.Sleep(time.Second)
+	// _, _, err = client.Repositories.CreateHook(ctx, github_org, github_repo, &github.Hook{
+	// 	Name: github.String("web"),
+	// 	Config: &github.HookConfig{
+	// 		URL:         github.String(webhook_url),
+	// 		ContentType: github.String("json"),
+	// 		Secret:      github.String(webhook_secret),
+	// 	},
+	// 	Events: []string{"push", "pull_request"},
+	// })
+	// if err != nil {
+	// 	return fmt.Errorf("create hook: %w", err)
+	// }
 	return nil
 }
