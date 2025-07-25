@@ -2107,3 +2107,7 @@ repos:
     info: Glenfly Tech Co., Ltd. Graphics drivers
     developer: dengbo11
     developer_id: "79958313"
+  - repo: com.windsurf.editor
+    info: The Windsurf Editor is built to keep you in flow state. Instant, invaluable\nAI developer assistance where you want it, when you want it.\n
+    developer: reddevillg
+    developer_id: "2016229"
