@@ -2111,3 +2111,11 @@ repos:
     info: The Windsurf Editor is built to keep you in flow state. Instant, invaluable\nAI developer assistance where you want it, when you want it.\n
     developer: reddevillg
     developer_id: "2016229"
+  - repo: com.plantuml.gpl
+    info: PlantUML is a highly versatile tool that facilitates the rapid and straightforward creation of a wide array of diagrams.\n
+    developer: reddevillg
+    developer_id: "2016229"
+  - repo: com.calibre-ebook.calibre
+    info: calibre is a powerful and easy to use e-book manager.
+    developer: reddevillg
+    developer_id: "2016229"
