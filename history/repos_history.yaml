@@ -2119,3 +2119,7 @@ repos:
     info: calibre is a powerful and easy to use e-book manager.
     developer: reddevillg
     developer_id: "2016229"
+  - repo: org.sumatrapdfreader
+    info: 一个PDF阅读器
+    developer: myml
+    developer_id: "13045857"
