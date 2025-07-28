@@ -3,3 +3,6 @@ repos:
   - repo: com.plantuml.gpl
     info: PlantUML is a highly versatile tool that facilitates the rapid and straightforward creation of a wide array of diagrams.\n
     developer: reddevillg
+  - repo: com.calibre-ebook.calibre
+    info: calibre is a powerful and easy to use e-book manager.
+    developer: reddevillg
