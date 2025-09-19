@@ -1,4 +1,2 @@
+tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
-  - repo: org.deepin.runtime.gtk4
-    info: GTK4 is a cross-platform C application framework. GTK's primary feature is its rich set of widgets that provide standard and beautiful GUI functionality.
-    developer: guanzi008
