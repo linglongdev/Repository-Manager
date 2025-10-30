@@ -2143,3 +2143,7 @@ repos:
     info: Innosilicon Fantasy II driver
     developer: reddevillg
     developer_id: "2016229"
+  - repo: org.deepin.driver.display.nvidia
+    info: nvidia display driver
+    developer: reddevillg
+    developer_id: "2016229"
