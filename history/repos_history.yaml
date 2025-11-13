@@ -2147,3 +2147,7 @@ repos:
     info: nvidia display driver
     developer: reddevillg
     developer_id: "2016229"
+  - repo: app.netlify.ytdn
+    info: ytDownloader
+    developer: myml
+    developer_id: "13045857"
