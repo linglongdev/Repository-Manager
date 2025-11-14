@@ -2151,3 +2151,7 @@ repos:
     info: ytDownloader
     developer: myml
     developer_id: "13045857"
+  - repo: com.github.moonplayer
+    info: Video player that can play online videos from youtube, bilibili etc.
+    developer: ComixHe
+    developer_id: "54773474"
