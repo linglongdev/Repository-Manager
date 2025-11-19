@@ -2155,3 +2155,7 @@ repos:
     info: Video player that can play online videos from youtube, bilibili etc.
     developer: ComixHe
     developer_id: "54773474"
+  - repo: com.sublimetext.sublime-text-4
+    info: Sublime Text是一款流行的代码编辑器软件，它具有漂亮的用户界面和强大的功能，例如代码缩略图，Python的插件，代码段、语法高亮等。
+    developer: dengbo11
+    developer_id: "79958313"
