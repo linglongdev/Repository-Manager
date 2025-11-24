@@ -2163,3 +2163,7 @@ repos:
     info: FreeCAD是用于CAD，MCAD，CAx，CAE和PLM的基于功能的通用型参数3D建模器，直接针对机械工程和产品设计，但也适用于工程学中的广泛用途，例如建筑或其他工程专业。它是100％开放源代码和高度模块化的，允许进行非常高级的扩展和定制。
     developer: dengbo11
     developer_id: "79958313"
+  - repo: com.vivaldi.vivaldi
+    info: Vivaldi浏览器
+    developer: dengbo11
+    developer_id: "79958313"
