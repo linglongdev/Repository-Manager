@@ -2171,3 +2171,7 @@ repos:
     info: 免费的媒体播放器
     developer: myml
     developer_id: "13045857"
+  - repo: md.obsidian
+    info: Obsidian
+    developer: dengbo11
+    developer_id: "79958313"
