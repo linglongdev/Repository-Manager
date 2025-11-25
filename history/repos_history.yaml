@@ -2167,3 +2167,7 @@ repos:
     info: Vivaldi浏览器
     developer: dengbo11
     developer_id: "79958313"
+  - repo: info.smplayer.smplayer
+    info: 免费的媒体播放器
+    developer: myml
+    developer_id: "13045857"
