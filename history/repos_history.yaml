@@ -2183,3 +2183,7 @@ repos:
     info: 远程文件管理，支持ftp, sftp协议。
     developer: myml
     developer_id: "13045857"
+  - repo: com.zhaoxin.linux.graphics.driver
+    info: Zhaoxin linux graphics driver
+    developer: dengbo11
+    developer_id: "79958313"
