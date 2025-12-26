@@ -2187,3 +2187,7 @@ repos:
     info: Zhaoxin linux graphics driver
     developer: dengbo11
     developer_id: "79958313"
+  - repo: org.deepin.driver.media.intel
+    info: Intel VA-API driver
+    developer: reddevillg
+    developer_id: "2016229"
