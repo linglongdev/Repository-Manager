@@ -2191,3 +2191,7 @@ repos:
     info: Intel VA-API driver
     developer: reddevillg
     developer_id: "2016229"
+  - repo: org.videolan.www.vlc
+    info: VLC
+    developer: ziggy1030
+    developer_id: "39146681"
