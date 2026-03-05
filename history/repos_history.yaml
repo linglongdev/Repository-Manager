@@ -2199,3 +2199,15 @@ repos:
     info: 开源的 AI Coding Agent
     developer: myml
     developer_id: "13045857"
+  - repo: com.github.linglongdev.node
+    info: nodejs 用于在linglongdev执行依赖安装
+    developer: myml
+    developer_id: "13045857"
+  - repo: com.github.linglongdev.golang
+    info: golang 用于在linglongdev执行依赖安装
+    developer: myml
+    developer_id: "13045857"
+  - repo: com.github.linglongdev.rust
+    info: rust 用于在linglongdev执行依赖安装
+    developer: myml
+    developer_id: "13045857"
