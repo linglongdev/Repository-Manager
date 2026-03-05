@@ -2195,3 +2195,7 @@ repos:
     info: VLC
     developer: ziggy1030
     developer_id: "39146681"
+  - repo: ai.opencode
+    info: 开源的 AI Coding Agent
+    developer: myml
+    developer_id: "13045857"
