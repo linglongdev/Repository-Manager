@@ -1,2 +1,13 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+- repo: com.github.linglongdev.node
+  info: nodejs 用于在linglongdev执行依赖安装
+  developer: myml
+  
+- repo: com.github.linglongdev.golang
+  info: golang 用于在linglongdev执行依赖安装
+  developer: myml
+
+- repo: com.github.linglongdev.rust
+  info: rust 用于在linglongdev执行依赖安装
+  developer: myml
