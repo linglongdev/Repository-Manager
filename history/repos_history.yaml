@@ -2211,3 +2211,7 @@ repos:
     info: rust 用于在linglongdev执行依赖安装
     developer: myml
     developer_id: "13045857"
+  - repo: com.github.linglongdev.fynedemo
+    info: fyne(golang gui) demo
+    developer: myml
+    developer_id: "13045857"
