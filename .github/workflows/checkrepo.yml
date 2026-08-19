@@ -1,7 +1,7 @@
 name: check repo exists
 
 on:
-  pull_request_target:
+  pull_request:
 
 jobs:
   run:
