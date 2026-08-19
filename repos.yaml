@@ -1,2 +1,5 @@
 tip: 为避免多个 PR 冲突，在 PR 合并后 repos.yaml 会被清空，历史提交请查看 history/repos_history.yaml
 repos:
+  - repo: org.deepin.runtime.dtk5
+    info: org.deepin.runtime 的 Qt5/DTK5 版本，用于支持仍依赖 Qt5/DTK5 的应用运行。玲珑运行时默认基于 Qt6/DTK6 构建，本仓库提供对应的 Qt5/DTK5 运行时，保证老旧应用在玲珑环境中正常启动。
+    developer: 18202781743
