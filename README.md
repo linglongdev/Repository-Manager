@@ -74,5 +74,5 @@ end
       在 PR 构建的时候检查多架构多 linglong.yaml 文件的 version 版本号要一致
 - [x] 发布 tag 后 触发 Jenkins 构建
       通过 webhook 触发 Jenkins 构建玲珑应用
-- [ ] tag 构建后推送 layer 到仓库
+- [x] tag 构建后推送 layer 到仓库
       Jenkins 构建完成后触发 publish 脚本，publish 脚本推送 layer 到test仓库
