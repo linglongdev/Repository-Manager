@@ -2235,3 +2235,107 @@ repos:
     info: OpenCode Go 套餐用量查询工具
     developer: muzimu217
     developer_id: "201334833"
+  - repo: org.kde.www.ktimer
+    info: KTimer 定时任务
+    developer: myml
+    developer_id: "13045857"
+  - repo: com.github.pdfarranger
+    info: Pdfarranger-PDF编辑器
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.amule.amule
+    info: aMule
+    developer: myml
+    developer_id: "13045857"
+  - repo: app.rednotebook
+    info: RedNotebook 记事本
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.julianbradfield.mahjong
+    info: Mah-jong
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.tuxfamily.rhinote
+    info: Rhinote
+    developer: myml
+    developer_id: "13045857"
+  - repo: com.github.cutecom
+    info: Cutecom
+    developer: myml
+    developer_id: "13045857"
+  - repo: net.sourceforge.tomatoes
+    info: Tomatoes
+    developer: myml
+    developer_id: "13045857"
+  - repo: uos.app.q4wine
+    info: q4wine
+    developer: myml
+    developer_id: "13045857"
+  - repo: brasero.linyaps
+    info: brasero
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.gnome.epiphany
+    info: Epiphany
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.debian.xfburn
+    info: xfburn
+    developer: myml
+    developer_id: "13045857"
+  - repo: de.www.uvena.gigolo
+    info: Gigolo
+    developer: myml
+    developer_id: "13045857"
+  - repo: uos.app.pyracerz
+    info: pyracerz
+    developer: myml
+    developer_id: "13045857"
+  - repo: uos.app.smplayer
+    info: Smplayer
+    developer: myml
+    developer_id: "13045857"
+  - repo: uos.app.blobwars
+    info: blobwars
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.jdim.jdim
+    info: JDim-2ch浏览器
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.stellarium.uos
+    info: Stellarium天象模拟软件
+    developer: myml
+    developer_id: "13045857"
+  - repo: com.github.wordwarvi
+    info: Wordwarvi
+    developer: myml
+    developer_id: "13045857"
+  - repo: uos.app.garden-of-coloured-lights
+    info: garden-of-coloured-lights
+    developer: myml
+    developer_id: "13045857"
+  - repo: github.slgobinath.safeeyes
+    info: SafeEyes
+    developer: myml
+    developer_id: "13045857"
+  - repo: net.sourceforge.xournal
+    info: Xournal
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.goldendict.goldendict
+    info: GoldenDict
+    developer: myml
+    developer_id: "13045857"
+  - repo: net.launchpad.catfish.uos
+    info: catfish
+    developer: myml
+    developer_id: "13045857"
+  - repo: org.kde.games.kspaceduel
+    info: KSpaceDuel 决战星空
+    developer: myml
+    developer_id: "13045857"
+  - repo: net.sourceforge.simulide
+    info: SimulIDE
+    developer: myml
+    developer_id: "13045857"
