@@ -72,9 +72,7 @@ end
       在修改 version 字段的 PR 合并后自动发布 tag,tag 号和 version 一致
 - [x] 多个 linglong.yaml 文件检查保持 version 一致
       在 PR 构建的时候检查多架构多 linglong.yaml 文件的 version 版本号要一致
-- [x] 发布 tag 后 触发 OBS 构建
+- [x] 发布 tag 后 触发 Jenkins 构建
       通过 webhook 触发 Jenkins 构建玲珑应用
 - [ ] tag 构建后推送 layer 到仓库
-      Jenkins 构建完成后触发 publish 脚本，publish 脚本推送 layer 到线上仓库
-
-**由于测试人力短缺，无法及时对每个应用做测试，已暂停推送layer到线上仓库的步骤** 应用打包者可分发构建的layer文件或前往 https://www.chinauos.com/partner/distribute 投递应用
+      Jenkins 构建完成后触发 publish 脚本，publish 脚本推送 layer 到test仓库
