@@ -2339,3 +2339,7 @@ repos:
     info: SimulIDE
     developer: myml
     developer_id: "13045857"
+  - repo: com.github.sanderland.katrain
+    info: KaTrain is a Go/Baduk/Weiqi playing and teaching app with a variety of AIs.
+    developer: mogoweb
+    developer_id: "1333855"
